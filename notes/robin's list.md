@@ -1,0 +1,144 @@
+- Types
+    - var (mostly obsolete)
+	- let
+	- const
+	- Diff btw both of them
+- "use strict"
+- Scopes
+	- How scopes work
+	- Block Scope
+	- Global Scope
+	- Lexical Scope
+- DataTypes in Javascript
+	- Primitive Data type - Number, String, Boolean, Undefined, Null, Symbol and BigInt
+	- Difference between undefined, null, NaN and false (nullish, truthy and falsy methods)
+	- Reference Data Type
+	- Global Variable, Global Properties and Globalthis
+- Number
+	- How to define Number
+	- Largest Number Value (Integer and Floating Point)
+	- Infinity
+	- Math Library
+	- Number Library
+- Strings
+	- How to define empty String
+	- Diff between "", '', and backtick literals ``
+	- String methods
+- Boolean
+- Date and TimeStamps
+- Type Conversion
+	- String to Number
+	- Number to String
+	- + and concat operator
+	- parseInt
+	- parseFloat
+- Operators
+	- Math operators (+, - etc)
+	- comparison operators( ==, ===)
+	- logical operators (|| or &&)
+	- binary operators
+	- typeof
+	- valueOf
+- Statements
+	- for loop
+	- if
+	- switch
+- Reference Data Type
+	- Objects
+	- Arrays
+	- Sets
+	- Map
+- Array
+	- Create Empty Array (array literal and not constructor)
+	- push/pop
+	- add from front, delete from front, add to last, delete from last, add ti middle, remove from middle (shift/unshift)
+	- iterate array - for loop, for each loop, for of loop
+	- removing duplicates
+	- Array.from
+	- Array methods - map(), reduce(), filter(), each(),every(), some(), sort(),indexof() etc
+	- lodash or underscore
+	- Iterators
+- Object
+	- Empty Object/ Object literal
+	- Using Contructor
+	- Object create/assign/entries/freeze/seal/defineProperty
+	- Object related methods
+	- Add and remove values from Object
+	- Object key, Object values, Object entries,key value pair
+	- Access of key, values and both
+	- delete/add/iterate object properties
+	- JSON vs JS object declaration
+	- Object for in/for of  loop
+	- Adding function to object
+	- How to access object properties from object functions
+	- object creation pattern - factory, constructor, prototype
+	- Global Object vs Window Object
+	- deep copy and shallow copy
+- This
+	- working of this
+	- this inside object
+	- this inside function
+	- this inside arrow function
+	- this and bind
+- Hoisting
+- immutability
+- Destructuring
+	- Object Destructuring
+	- Array Destructuring
+- Maps and Set
+- Functions
+	- Function declaration vs Function Expression
+	- Anonymous function - immediately invoked function expression
+	- preventDefault()
+- Default parameters
+- Spread operators
+	- Spread in array
+	- Spread in objects
+	- object.assign vs spread operator
+	- shallow copy/deep copy
+	- creating and merging of objects using spread
+- Callback functions
+- OOP in JS
+	- Prototypical inheritence model
+	- setPrototypeOf
+	- Prototype
+	- __proto__
+	- object creation using es5
+	- new keyword
+	- class in es6
+	- composition vs inheritance
+	- this in es5 and es6
+	- constructor in es5 and es6
+	- encapsulation using module
+	- setter and getter
+- Arrow function
+	- JS as functional programming language
+- call vs apply vs bind
+- Higher order function
+	- return function from function
+- Closures
+- Function chaining
+- Curry function
+- modules
+	- exporting modules
+	- importing modules
+- async operations
+	- callback hell
+	- promises
+	- async await
+	- setTimeout/setInterval
+	- fetch api
+- Error handaling
+	- try/catch
+	- falsy value check (null, undefined, NaN, false,'')
+- Streams
+	- path
+	- join
+- Try/Catch/Throw Error and Error handaling
+- Recursion
+- Generators
+- Memoization
+- localStorage vs globalstorage
+- HTML
+	- adding events to components
+	- event propagation

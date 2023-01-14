@@ -1,4 +1,34 @@
-"use strict";
+var x;
+
+cons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Hoisting
 // d=4;
 // console.log(d);
@@ -19,47 +49,47 @@ function x () {
 
 
 
-let a = 5;
-class Animal {
-  name="animal";
-  talk=function (){
-    console.log("talking");
-  };
-}
+// let a = 5;
+// class Animal {
+//   name="animal";
+//   talk=function (){
+//     console.log("talking");
+//   };
+// }
 
-function add() {
-  let counter = 0;
-  function plus() {counter += 1;console.log(counter);}
-  plus();   
-  return counter;
-}
+// function add() {
+//   let counter = 0;
+//   function plus() {counter += 1;console.log(counter);}
+//   plus();   
+//   return counter;
+// }
 
-add();
+// add();
 
-function alpha() {
-  let a = 5;
-  function beta() {
-    console.log(a++);
-  }
-  return beta();
-}
+// function alpha() {
+//   let a = 5;
+//   function beta() {
+//     console.log(a++);
+//   }
+//   return beta();
+// }
 
-//alpha();
+// //alpha();
 
-//setState(state+4);
-function useState(initialState){
-  let count = initialState;
-  function newState(newValue){
-    count=newValue
-  }
-  return [count, newState];
-}
+// //setState(state+4);
+// function useState(initialState){
+//   let count = initialState;
+//   function newState(newValue){
+//     count=newValue
+//   }
+//   return [count, newState];
+// }
 
-const [state, setState] = useState(0);
+// const [state, setState] = useState(0);
 
-console.log("currentState value is :: " + state)
-setState(3);
-console.log("currentState value is :: " + setState(3))
+// console.log("currentState value is :: " + state)
+// setState(3);
+// console.log("currentState value is :: " + setState(3))
 
 
 
