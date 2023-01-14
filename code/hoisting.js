@@ -101,14 +101,6 @@ function x () {
   
   // d, var d, let d, const d
   
-  // Scope
-  // Module Scope
-  // Local scope
-  // Global scope
-     // Script Scope used for Let, const and class
-  // Function scope
-  // Block scope
-  // Lexical Scope
  
   
   //var a =5; //Global Scope
