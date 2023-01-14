@@ -1,13 +1,6 @@
-
-function outer() {
-    var x = 4;
-    function inner() {
-        x--;
-        console.log("X value is :: ", x)
-    }
-    inner();
-}
-
-outer();
-outer();
-outer();
+(function(){
+    setTimeout(
+        (function(){console.log("4")})()
+        , 2000);
+    setTimeout(console.log("3"), 1000);
+})()

@@ -1,3 +1,1 @@
 callback.js
-
-removing event 

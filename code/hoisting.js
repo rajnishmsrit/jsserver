@@ -1,6 +1,5 @@
 var x;
 
-cons
 
 
 

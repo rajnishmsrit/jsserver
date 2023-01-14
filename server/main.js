@@ -1,9 +1,17 @@
 var a = 5;
 
-function awesome() {
-    console.log("Awesomness Start");
+{
+    let a=7;
+    console.log(a);
+    {
+        a=100;
+        console.log(a);
+    }
 }
+a = 40;
+console.log(a);
 
-awesome();
-
-console.log(globalThis);
+// Scope
+// Overrides
+// let/const overriding var // reverse isn't possible
+// scope as a venn diagram

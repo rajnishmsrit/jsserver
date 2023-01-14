@@ -1,6 +1,5 @@
 //First class citizedns
 
-
 // Functional Statement aka functional Declaration
 
 // Function Expression
