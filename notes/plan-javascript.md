@@ -9,7 +9,6 @@
 -   settimeout and closures
 
 # Types and Functions
--   Akshay Saini
 -   undefined vs not defined
 -   primitives and coercing
 -   Symbol
@@ -33,7 +32,7 @@
 -   ES6 constructs
 -   Feature detection and polyfill
 -   Regular expressions 
--   Method chaning and Javascript Number.Math item
+-   Method chaining and Javascript Number.Math item
 -   Storage
     -   Session storage is only for same tab
         -   Cookie
@@ -49,5 +48,14 @@
         -   does not block the html parsing till the script has loaded parallely. Blocks the html parsing when the script is available  
     -   <script defer src""></script>
         -   scripts are fetched parallely and executed once the html is parsed.
--   Event Lifecycle
+-   Events Lifecycle
     -   Event Bubbling and capturing
+        -   Some event's do not bubble up like blur, window resize
+    -   Event Delegation
+    -   Debouncing
+    -   Throttling
+-   Built-in Objects
+-   Web APIs
+    -   Mutation Observer API
+    -   Intersection Observer API
+    -   Performance Observer API

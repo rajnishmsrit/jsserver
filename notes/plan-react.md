@@ -1,2 +1,13 @@
-# Portals
--   used for Modal and such
+# Revise React
+-   Portals
+    -   used for Modal and such
+-   Synthetic Events
+-   Hooks
+    -   useMemo
+    -   useCallback
+    -   useState
+    -   useContext
+    -   useRef
+    -   useLayoutEffect
+    -   useEffect
+-   Higher Order Components
