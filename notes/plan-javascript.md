@@ -31,8 +31,24 @@
 // Prototype property and __proto property 
 // bind, apply etc
 
-// EXTRAS
-// ES6 constructs
-// Feature detection and polyfill
-// Regular expressions 
-// Method chaning and Javascript Number.Math item 
+-   ES6 constructs
+-   Feature detection and polyfill
+-   Regular expressions 
+-   Method chaning and Javascript Number.Math item
+-   Storage
+    -   Session storage is only for same tab
+        -   Cookie
+    -   Local storage last as long as you want
+        -   stored on global object
+-   JSON
+    -   stringify
+    -   parse
+-   Script tag
+    -   <script src""></script>
+        -   sequential, script blocks html parsing
+    -   <script async src""></script>
+        -   does not block the html parsing till the script has loaded parallely. Blocks the html parsing when the script is available  
+    -   <script defer src""></script>
+        -   scripts are fetched parallely and executed once the html is parsed.
+-   Event Lifecycle
+    -   Event Bubbling and capturing
