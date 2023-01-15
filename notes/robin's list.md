@@ -9,7 +9,6 @@
 	- Block Scope
 	- Global Scope
 	- Lexical Scope
-    
     - Module Scope
     - Script Scope (That's how console name's it for let and const)
     - Function Scope
