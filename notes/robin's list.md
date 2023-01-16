@@ -13,12 +13,14 @@
     - Script Scope (That's how console name's it for let and const)
     - Function Scope
 - DataTypes in Javascript
-	- Primitive Data type - Number, String, Boolean, Undefined, Null, Symbol and BigInt
+	- Primitive Data type - Number, String, Boolean, Undefined, Null, Symbol and BigInt (Wrapper)
         - Stored in stack, 
 	- Difference between undefined, null, NaN and false (nullish, truthy and falsy methods)
         - Stored in Heap, allocated more space, accessed by reference
 	- Reference Data Type
+		-	array, map, set, object, wrapper object - convert primitives to object
 	- Global Variable, Global Properties and Globalthis
+	-	AutoBoxing 
 - Global Storage
     -   https://www.youtube.com/watch?v=Hci9Bb4_fkA&list=PLillGF-Rfqbars4vKNtpcWVDUpVOVTlgB&index=4&ab_channel=TraversyMedia
     -   Stacks for primitives

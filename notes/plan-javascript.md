@@ -3,15 +3,19 @@
 -   How does JS works gets executed?
 -   Lexical Environment
 -   Hoisting
+-   Scope, types and shadowing combination questions
 -   Scope and Scope chaining, Hoisting and temporal dead zone
 -   Block Scope & Shadowing
 -   Closures 
 -   settimeout and closures
 
-# Types and Functions
+
+# Types
 -   undefined vs not defined
 -   primitives and coercing
 -   Symbol
+
+# Functions
 -   Function and first class citizens/functions
 -   Callback functions
 -   Pure Functions and Higher Order Functions 
