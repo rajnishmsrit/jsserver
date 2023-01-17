@@ -1,3 +1,25 @@
--   core web vitals
--   janking
--   security
+-   Core web vitals
+-   Janking
+-   Security
+-   Database
+    -   Storage
+-   CDN
+-   APIs
+-   Storage - S3, EC2, EBS
+-   Deployment
+-   Route53
+-   Certificates
+-   Analytics
+-   Monitoring
+-   Logs
+-   Data Recovery
+-   Performance
+-   Accessibility
+-   Cross-browser
+-   SPoF (Single Point of Failure)
+-   Scalable
+-   Security
+-   Micro-frontends
+-   SEO
+-   Reliability
+-   Maintainability
