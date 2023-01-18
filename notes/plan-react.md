@@ -11,3 +11,7 @@
     -   useLayoutEffect
     -   useEffect
 -   Higher Order Components
+-   Controlled Component vs Uncontrolled Components
+-   Synthetic Events
+-   Event handler
+-   e event is destroyed after consumption by React. use e.persist()

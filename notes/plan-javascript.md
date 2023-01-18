@@ -26,14 +26,17 @@
 -   JS Engines and how they work, AST, Memory Heap etc
 -   asynchorous 
 -   callback, promises, async/await // settimeout // settimeinterval and Web APIs
--   Fun fun functional
--   Behavior of this in js
+-   Behavior of this in js during different function context
+
+# OOPS in JS
+-   Behavior of this in js in object and function
+-   bind, call, apply
 -   Prototypal inheritance 
 -   Prototype property and __proto property 
--   bind, apply etc
+-   Object and its patterns
 
 # Miscellaneous
--   ES6 constructs
+-   ES6 and newer constructs
 -   Feature detection and polyfill
 -   Regular expressions 
 -   Method chaining and Javascript Number.Math item
