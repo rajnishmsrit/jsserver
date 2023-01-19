@@ -1,8 +1,13 @@
+-   Design Patterns
+-   Accessibility
+-   SEO
 -   Performance Optimizations
     -   Network
     -   Bandwidth
     -   Assets
     -   Use the HTTP/2 protocol?
+-   Chakde System design
+-   Security
 -   Core web vitals
 -   Janking
 -   Security
@@ -18,13 +23,9 @@
 -   Monitoring
 -   Logs
 -   Data Recovery
--   Performance
--   Accessibility
 -   Cross-browser
 -   SPoF (Single Point of Failure)
 -   Scalable
--   Security
 -   Micro-frontends
--   SEO
 -   Reliability
 -   Maintainability

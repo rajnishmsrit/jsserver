@@ -18,6 +18,7 @@
     -   practice this locally
 -   CreatClass and mixins
 -   List and keys 
+    -   the key id is not available for use, so if you need it please pass as a prop too.
     - thinking about how natively we create diff algorithm
     - why keys are imp to react
 -    <button onClick={() => this.handleClick()}>
@@ -36,3 +37,15 @@
         -   Containment
             -   how to create FancyBorder with inheritance
     -   Thinking in React needs to be done with an example
+
+# Advanced Guides
+-   Accessibility
+    -   aria label
+    -   Use of React Fragment
+    -   Accessible forms
+        -   labeling
+        -   focus control
+    -   Accesbility in different countries
+        -   left to right and right to left
+    -   Think about Keyboard focus movements and design per that instead of assuming user's behaviour
+    -   https://github.com/davidtheclark/react-aria-modal
