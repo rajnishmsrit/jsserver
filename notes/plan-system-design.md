@@ -1,3 +1,8 @@
+-   Performance Optimizations
+    -   Network
+    -   Bandwidth
+    -   Assets
+    -   Use the HTTP/2 protocol?
 -   Core web vitals
 -   Janking
 -   Security

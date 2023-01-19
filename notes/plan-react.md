@@ -15,3 +15,24 @@
 -   Synthetic Events
 -   Event handler
 -   e event is destroyed after consumption by React. use e.persist()
+    -   practice this locally
+-   CreatClass and mixins
+-   List and keys 
+    - thinking about how natively we create diff algorithm
+    - why keys are imp to react
+-    <button onClick={() => this.handleClick()}>
+    -   why does this arrow function rerenders every time.
+-   Forms
+    -   Create a naive form without formik
+    -   input, select, textarea are made consistent with react even though they are diff on HTML
+    -   input type file is uncontrolled,
+    -   the goal of react is to use controlled component as much as possible
+    -   Controlled Input Null Value experiment on local
+    -   find a component library used by good organization and study
+    -   State Updates May Be Asynchronous
+        -   read again and try locally
+    -   There should be a single “source of truth” for any data that changes in a React application.
+    -   Composition over Inheritance
+        -   Containment
+            -   how to create FancyBorder with inheritance
+    -   Thinking in React needs to be done with an example
