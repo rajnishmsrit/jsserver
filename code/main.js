@@ -1,10 +1,14 @@
-const target = { a: 1, b: 2 };
-const source = { b: 4, c: 5 };
+function talk () {
+    console.log(this);
+    console.log(this.sound);
+}
 
-const returnedTarget = Object.assign(target, source);
+let animal = {
+    talk
+}
+const cat = {
+    sound : "meow"
+}
 
-console.log(target);
-// Expected output: Object { a: 1, b: 4, c: 5 }
-
-console.log(returnedTarget === target);
-// Expected output: true
+Object.setPrototypeOf(cat, animal);
+cat.talk();
