@@ -49,3 +49,19 @@
         -   left to right and right to left
     -   Think about Keyboard focus movements and design per that instead of assuming user's behaviour
     -   https://github.com/davidtheclark/react-aria-modal
+-   Web Component
+    -   another way to extend html elements, 
+    -   is historic and no one uses them
+    -   state management is tought
+    -   need double react wrapper to manage events.
+-   Controlled Components
+    -   state can be controlled by React
+-   Uncontrolled Components
+    -   state is controlled by HTML element
+    -   uses ref, example file upload
+-   Typechecking With PropTypes
+    -   This is done during runtime and not compile time
+    -   looks a good feature like a layer on props rather than on form validation yup library
+    -   has performance bottleneck and therefore react uses it only in development mode
+    -   
+-   
