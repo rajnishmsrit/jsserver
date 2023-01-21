@@ -7,3 +7,31 @@
     -   What does react fragment actually do?
     -   Why do multiple JSX tags need to be wrapped?
         -   JSX looks like HTML, but under the hood it is transformed into plain JavaScript objects. You can’t return two objects from a function without wrapping them into an array. This explains why you also can’t return two JSX tags without wrapping them into another tag or a Fragment.
+    -  Quotes for strings "", '', { for scripts }
+    -   `{{ Double curlies for objects and css }}`
+    -   `<ul style="background-color: black">` would be written as `<ul style={{ backgroundColor: 'black' }}>`
+    -   Don’t miss the pair of { and } curlies inside of ( and ) when declaring props:   
+    -   Passing Props
+        -    Props are not always static
+        -   You can’t change props. When you need interactivity, you’ll need to set state
+        -   {children} prop
+        - Props are read-only snapshots in time: every render receives a new version of props.
+    -   Conditional Rendering
+        -   Don’t put numbers on the left side of &&.
+        -   In JSX, {cond ? <A /> : <B />} means “if cond, render <A />, otherwise <B />”.
+        -   In JSX, {cond && <A />} means “if cond, render <A />, otherwise nothing”.
+    -   Rendering Lists
+        -   key can be built using database values or crypto.randomUUIID()
+        -   Keys must be unique among siblings. However, it’s okay to use the same keys for JSX nodes in different arrays.
+        -   Keys must not change or that defeats their purpose! Don’t generate them while rendering.
+        -   do not generate keys on the fly, e.g. with key={Math.random()}
+    -   Keep Components Pure
+        -   In React there are three kinds of inputs that you can read while rendering: props, state, and context. You should always treat these inputs as read-only.
+        -   React offers a “Strict Mode” in which it calls each component’s function twice during development.
+        -   You should not mutate any of the inputs that your components use for rendering. That includes props, state, and context. To update the screen, “set” state instead of mutating preexisting objects.
+        -   Strive to express your component’s logic in the JSX you return. When you need to “change things”, you’ll usually want to do it in an event handler. As a last resort, you can useEffect.
+        -   Writing pure functions takes a bit of practice, but it unlocks the power of React’s paradigm.
+        -   Pure functions can be run on server and you need to not worry since the return are always same.
+        -   Rendering can happen at any time, so components should not depend on each others’ rendering sequence.
+-   Adding Interactivity
+    -   
