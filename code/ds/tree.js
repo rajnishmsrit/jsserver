@@ -1,29 +1,50 @@
 class TreeNode {
     constructor(key, value = key, parent = null) {
-        this.key = key;
-        this.value = value;
-        this.parent = parent;
-        this.children = [];
+      this.key = key;
+      this.value = value;
+      this.parent = parent;
+      this.children = [];
     }
-
+  
     get isLeaf() {
-        return this.children.length === 0;
+      return this.children.length === 0;
     }
-
+  
     get hasChildren() {
-        return !this.isLeaf;
+      return !this.isLeaf;
     }
-}
-
-class Tree {
+  }
+  
+  class Tree {
     constructor(key, value = key) {
-        this.root = new TreeNode(key, value);
+      this.root = new TreeNode(key, value);
     }
-
-    find(key) {
-        for (let node of this.preOrderTraversal()) {
-        if (node.key === key) return node;
+  
+    insert(parentNodeKey, key, value = key) {
+      for (let node of this.preOrderTraversal()) {
+        if (node.key === parentNodeKey) {
+          node.children.push(new TreeNode(key, value, node));
+          return true;
         }
-        return undefined;
+      }
+      return false;
     }
-}
+  
+    remove(key) {
+      for (let node of this.preOrderTraversal()) {
+        const filtered = node.children.filter(c => c.key !== key);
+        if (filtered.length !== node.children.length) {
+          node.children = filtered;
+          return true;
+        }
+      }
+      return false;
+    }
+  
+    find(key) {
+      for (let node of this.preOrderTraversal()) {
+        if (node.key === key) return node;
+      }
+      return undefined;
+    }
+  }

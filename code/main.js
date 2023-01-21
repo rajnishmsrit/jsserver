@@ -12,3 +12,6 @@ const cat = {
 
 Object.setPrototypeOf(cat, animal);
 cat.talk();
+
+// [1,2,3]
+// [1,2,3]
