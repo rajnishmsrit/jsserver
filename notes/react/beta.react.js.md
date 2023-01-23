@@ -42,4 +42,39 @@
         -   Functions passed to event handlers must be passed, not called.
         -   If you want to define your event handler inline, wrap it in an anonymous function like so: `<button onClick={() => alert('You clicked me!')}>`
         -   By convention, event handler props should start with on, followed by a capital letter.
-        -   
+        -   When does the event propagation stop? at body? head?
+        -   Capture events are useful for code like routers or analytics, but you probably won’t use them in app code.
+        -   You can handle events by passing a function as a prop to an element like <button>.
+        -   Event handlers must be passed, not called! onClick={handleClick}, not onClick={handleClick()}.
+        -   You can define an event handler function separately or inline.
+        -   Event handlers are defined inside a component, so they can access props.
+        -   You can declare an event handler in a parent and pass it as a prop to a child.
+        -   You can define your own event handler props with application-specific names.
+        -   Events propagate upwards. Call e.stopPropagation() on the first argument to prevent that.
+        -   Events may have unwanted default browser behavior. Call e.preventDefault() to prevent that.
+        -   Explicitly calling an event handler prop from a child handler is a good alternative to propagation.
+    -   State: A Component's Memory
+        -   Hooks are special functions that are only available while React is rendering
+        -   Use a state variable when a component needs to “remember” some information between renders.
+        -   State variables are declared by calling the useState Hook.
+        -   Hooks are special functions that start with use. They let you “hook into” React features like state.
+        -   Hooks might remind you of imports: they need to be called unconditionally. Calling Hooks, including useState, is only valid at the top level of a component or another Hook.
+        -   The useState Hook returns a pair of values: the current state and the function to update it.
+        -   You can have more than one state variable. Internally, React matches them up by their order.
+        -   State is private to the component. If you render it in two places, each copy gets its own state.
+    -   Render and Commit
+        -   After rendering is done and React updated the DOM, the browser will repaint the screen. Although this process is known as “browser rendering”, we’ll refer to it as “painting” to avoid confusion in the rest of these docs.
+        -   Any screen update in a React app happens in three steps:
+            -   Trigger
+            -   Render
+            -   Commit
+        -   You can use Strict Mode to find mistakes in your components
+        -   React does not touch the DOM if the rendering result is the same as last time
+    -   State as a Snapshot
+        -   Setting state requests a new render.
+        -   React stores state outside of your component, as if on a shelf.
+        -   When you call useState, React gives you a snapshot of the state for that render.
+        -   Variables and event handlers don’t “survive” re-renders. Every render has its own event handlers.
+        -   Every render (and functions inside it) will always “see” the snapshot of the state that React gave to that render.
+        -   You can mentally substitute state in event handlers, similarly to how you think about the rendered JSX.
+        -   Event handlers created in the past have the state values from the render in which they were created.
