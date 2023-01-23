@@ -151,4 +151,16 @@
     -   Extracting State Logic into a Reducer
         -   An action object can have any shape.
         -   it’s a convention to use switch statements inside reducers
+        -   Extremely important to practice this and find out how the standard library do it like redux and other
+        -   Reducers must be pure. Similar to state updater functions, reducers run during rendering! (Actions are queued until the next render.) This means that reducers must be pure—same inputs always result in the same output. They should not send requests, schedule timeouts, or perform any side effects (operations that impact things outside the component). They should update objects and arrays without mutations.
+        -   Each action describes a single user interaction, even if that leads to multiple changes in the data. For example, if a user presses “Reset” on a form with five fields managed by a reducer, it makes more sense to dispatch one reset_form action rather than five separate set_field actions. If you log every action in a reducer, that log should be clear enough for you to reconstruct what interactions or responses happened in what order. This helps with debugging!
+        -   To convert from useState to useReducer:
+            -   Dispatch actions from event handlers.
+            -   Write a reducer function that returns the next state for a given state and action.
+            -   Replace useState with useReducer.
+        -   Reducers require you to write a bit more code, but they help with debugging and testing.
+        -   Reducers must be pure.
+        -   Each action describes a single user interaction.
+        -   Use Immer if you want to write reducers in a mutating style.
+    -   Passing Data Deeply with Context
         -   
