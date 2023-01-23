@@ -78,3 +78,16 @@
         -   Every render (and functions inside it) will always “see” the snapshot of the state that React gave to that render.
         -   You can mentally substitute state in event handlers, similarly to how you think about the rendered JSX.
         -   Event handlers created in the past have the state values from the render in which they were created.
+    -   Queueing a Series of State Updates
+        -   React waits until all code in the event handlers has run before processing your state updates. This is why the re-render only happens after all these setNumber() calls.
+        -   React does not batch across multiple intentional events like clicks—each click is handled separately
+        -   Event Handler and react re-rendering has a different relationship. Not all event handler's invoke react re-render, unlike on click.
+        -   It is an uncommon use case, but if you would like to update the same state variable multiple times before the next render, instead of passing the next state value like setNumber(number + 1), you can pass a function that calculates the next state based on the previous one in the queue, like setNumber(n => n + 1). It is a way to tell React to “do something with the state value” instead of just replacing it.
+        -    updater functions must be pure and only return the result. Don’t try to set state from inside of them or run other side effects
+        -   It’s common to name the updater function argument by the first letters of the corresponding state variable:
+        -    another common convention is to repeat the full state variable name, like setEnabled(enabled => !enabled), or to use a prefix like setEnabled(prevEnabled => !prevEnabled).
+        -   Setting state does not change the variable in the existing render, but it requests a new render.
+        -   React processes state updates after event handlers have finished running. This is called batching.
+        -   To update some state multiple times in one event, you can use setNumber(n => n + 1) updater function.
+    -   Updating Objects in State
+        -    although objects in React state are technically mutable, you should treat them as if they were immutable—like numbers, booleans, and strings. Instead of mutating them, you should always replace them.
