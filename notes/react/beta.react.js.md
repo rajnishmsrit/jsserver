@@ -185,4 +185,23 @@
             -   You can also export custom Hooks like useTasks and useTasksDispatch to read it.
         -   You can have many context-reducer pairs like this in your app.
 -   Escape Hatches
-    -   
+    -   There are two common cases in which you don’t need Effects:
+        -   You don’t need Effects to transform data for rendering.
+        -   You don’t need Effects to handle user events.
+    -   Referencing Values with Refs
+        -   Refs are an escape hatch to hold onto values that aren’t used for rendering. You won’t need them often.
+        -   A ref is a plain JavaScript object with a single property called current, which you can read or set.
+        -   You can ask React to give you a ref by calling the useRef Hook.
+        -   Like state, refs let you retain information between re-renders of a component.
+        -   Unlike state, setting the ref’s current value does not trigger a re-render.
+        -   Don’t read or write ref.current during rendering. This makes your component hard to predict.
+    -   Manipulating the DOM with Refs
+        -   Use of refs to to a scrollIntoView with cats. Must try locally
+        -   In design systems, it is a common pattern for low-level components like buttons, inputs, and so on, to forward their refs to their DOM nodes. On the other hand, high-level components like forms, lists, or page sections usually won’t expose their DOM nodes to avoid accidental dependencies on the DOM structure.
+        -   In general, you don’t want to access refs during rendering.
+        -   Refs are a generic concept, but most often you’ll use them to hold DOM elements.
+        -   You instruct React to put a DOM node into myRef.current by passing <div ref={myRef}>.
+        -   Usually, you will use refs for non-destructive actions like focusing, scrolling, or measuring DOM elements.
+        -   A component doesn’t expose its DOM nodes by default. You can opt into exposing a DOM node by using forwardRef and passing the second ref argument down to a specific node.
+        -   Avoid changing DOM nodes managed by React.
+        -   If you do modify DOM nodes managed by React, modify parts that React has no reason to update.
