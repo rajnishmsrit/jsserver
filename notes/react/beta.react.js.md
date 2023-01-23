@@ -91,3 +91,64 @@
         -   To update some state multiple times in one event, you can use setNumber(n => n + 1) updater function.
     -   Updating Objects in State
         -    although objects in React state are technically mutable, you should treat them as if they were immutable—like numbers, booleans, and strings. Instead of mutating them, you should always replace them.
+        -   the ... spread syntax is “shallow”—it only copies things one level deep. This makes it fast, but it also means that if you want to update a nested property, you’ll have to use it more than once.
+        -   Immer and Proxy built-in objects
+        -   Treat all state in React as immutable.
+        -   When you store objects in state, mutating them will not trigger renders and will change the state in previous render “snapshots”.
+        -   Instead of mutating an object, create a new version of it, and trigger a re-render by setting state to it.
+        -   You can use the {...obj, something: 'newValue'} object spread syntax to create copies of objects.
+        -   Spread syntax is shallow: it only copies one level deep.
+        -   To update a nested object, you need to create copies all the way up from the place you’re updating.
+        -   To reduce repetitive copying code, use Immer.
+    -   Updating Arrays in State
+        -   https://beta.reactjs.org/learn/updating-arrays-in-state#updating-arrays-without-mutation
+        -    you don’t want to mutate objects or arrays in state
+            -   because react creates a snapshot of state and works on it.
+            -   Experiment and play with this concept, try some mutations and see when it breaks, local variable vs state 
+        -   You can put arrays into state, but you can’t change them.
+        -   Instead of mutating an array, create a new version of it, and update the state to it.
+        -   You can use the [...arr, newItem] array spread syntax to create arrays with new items.
+        -   You can use filter() and map() to create new arrays with filtered or transformed items.
+        -   You can use Immer to keep your code concise.
+-   Managing State
+    -   Reacting to Input with State
+        -   Notice that human inputs often require event handlers!
+        -   Declarative programming means describing the UI for each visual state rather than micromanaging the UI (imperative).
+        -   When developing a component:
+            -   Identify all its visual states.
+            -   Determine the human and computer triggers for state changes.
+            -   Model the state with useState.
+            -   Remove non-essential state to avoid bugs and paradoxes.
+            -   Connect the event handlers to set state.
+    -   Choosing the State Structure
+        -   Think about create a state finite machines out of an existing React Component
+        -   Don’t mirror props in state 
+        -   Think about state as a snapshot when trying to create multiple states - Are we duplicating a value?
+        -   https://docs.flutter.dev/development/data-and-backend/state-mgmt/ephemeral-vs-app
+        -   If two state variables always update together, consider merging them into one.
+        -   Choose your state variables carefully to avoid creating “impossible” states.
+        -   Structure your state in a way that reduces the chances that you’ll make a mistake updating it.
+        -   Avoid redundant and duplicate state so that you don’t need to keep it in sync.
+        -   Don’t put props into state unless you specifically want to prevent updates.
+        -   For UI patterns like selection, keep ID or index in state instead of the object itself.
+        -   If updating deeply nested state is complicated, try flattening it.
+    -   Sharing State Between Components
+        -   “lift their state up” to a parent component in three steps:
+            -   Remove state from the child components.
+            -   Pass hardcoded data from the common parent.
+            -   Add state to the common parent and pass it down together with the event handlers.
+        -   When you want to coordinate two components, move their state to their common parent.
+        -   Then pass the information down through props from their common parent.
+        -   Finally, pass the event handlers down so that the children can change the parent’s state.
+        -   It’s useful to consider components as “controlled” (driven by props) or “uncontrolled” (driven by state).
+    -   Preserving and Resetting State
+        -   https://beta.reactjs.org/learn/preserving-and-resetting-state#the-ui-tree
+        -   Remember that it’s the position in the UI tree—not in the JSX markup—that matters to React!
+        -   React keeps state for as long as the same component is rendered at the same position.
+        -   State is not kept in JSX tags. It’s associated with the tree position in which you put that JSX.
+        -   You can force a subtree to reset its state by giving it a different key.
+        -   Don’t nest component definitions, or you’ll reset state by accident.
+    -   Extracting State Logic into a Reducer
+        -   An action object can have any shape.
+        -   it’s a convention to use switch statements inside reducers
+        -   

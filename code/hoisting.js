@@ -5,7 +5,7 @@ var x;
 
 
 
-
+setState({"data" : "Name"})
 
 
 

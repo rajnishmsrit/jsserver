@@ -10,8 +10,13 @@ const cat = {
     sound : "meow"
 }
 
-Object.setPrototypeOf(cat, animal);
-cat.talk();
+
+
+const alpha = talk;
+
+console.log(alpha(cat));
+// Object.setPrototypeOf(cat, animal);
+// cat.talk();
 
 // [1,2,3]
 // [1,2,3]
