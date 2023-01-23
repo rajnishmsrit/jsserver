@@ -18,8 +18,8 @@
         - Props are read-only snapshots in time: every render receives a new version of props.
     -   Conditional Rendering
         -   Don’t put numbers on the left side of &&.
-        -   In JSX, {cond ? <A /> : <B />} means “if cond, render <A />, otherwise <B />”.
-        -   In JSX, {cond && <A />} means “if cond, render <A />, otherwise nothing”.
+        -   In JSX, `{cond ? <A /> : <B />}` means “if cond, render `<A />`, otherwise `<B />`”.
+        -   In JSX, `{cond && <A />}` means “if cond, render `<A />`, otherwise nothing”.
     -   Rendering Lists
         -   key can be built using database values or crypto.randomUUIID()
         -   Keys must be unique among siblings. However, it’s okay to use the same keys for JSX nodes in different arrays.
@@ -34,4 +34,12 @@
         -   Pure functions can be run on server and you need to not worry since the return are always same.
         -   Rendering can happen at any time, so components should not depend on each others’ rendering sequence.
 -   Adding Interactivity
-    -   
+    -   If copying objects in code gets tedious, you can use a library like Immer to reduce repetitive code:
+    -   State can hold any kind of JavaScript value, including objects. But you shouldn’t change objects and arrays that you hold in the React state directly. Instead, when you want to update an object and array, you need to create a new one (or make a copy of an existing one), and then update the state to use that copy.
+        -   Arrays are another type of mutable JavaScript objects you can store in state and should treat as read-only. Just like with objects, when you want to update an array stored in state, you need to create a new one (or make a copy of an existing one), and then set state to use the new array:
+    -   Responding to Events
+        -   By convention, it is common to name event handlers as handle followed by the event name. You’ll often see onClick={handleClick}, onMouseEnter={handleMouseEnter}, and so on.
+        -   Functions passed to event handlers must be passed, not called.
+        -   If you want to define your event handler inline, wrap it in an anonymous function like so: `<button onClick={() => alert('You clicked me!')}>`
+        -   By convention, event handler props should start with on, followed by a capital letter.
+        -   

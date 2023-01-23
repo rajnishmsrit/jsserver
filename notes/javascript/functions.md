@@ -3,13 +3,25 @@
     -   this is different
 -   First class citizens
 -   Functional Statement aka functional Declaration
+-   Anonymous Function
+-   Named Function Expression
+-   Params vs Arguments
+-   First Class Functions - ability to used like values
+-   First class citizens 
+-   Arrow Functions
 -   Function Expression
-var a = function() {
+-   `var a = function() {}`
+-   reduce
+    - 
 
-}
+
+
+
+
+
+
+
 -   React events do not work exactly the same as native events.
-
-
 class LoggingButton extends React.Component {
   handleClick() {
     console.log('this is:', this);
@@ -24,21 +36,9 @@ class LoggingButton extends React.Component {
     );
   }
 }
-
 why is this rendering everytime we use it?
 
 argument forwarding in arrow function?
 
-
 Hoisiting is the difference b/w functional statement and functional declaration
 
-Anonymous Function
-
-// Named Function Expression
-
-// Params vs Arguments
-
-// First Class Functions - ability to used like values
-// First class citizens 
-
-// Arrow Functions
