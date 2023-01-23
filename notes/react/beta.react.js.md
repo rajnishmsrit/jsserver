@@ -163,4 +163,26 @@
         -   Each action describes a single user interaction.
         -   Use Immer if you want to write reducers in a mutating style.
     -   Passing Data Deeply with Context
-        -   
+        -   Why can a hook be called at the top level component only?
+        -   Context lets a component provide some information to the entire tree below it.
+        -   To pass context:
+            -   Create and export it with export const MyContext = createContext(defaultValue).
+            -   Pass it to the useContext(MyContext) Hook to read it in any child component, no matter how deep.
+            -   Wrap children into <MyContext.Provider value={...}> to provide it from a parent.
+        -   Context passes through any components in the middle.
+        -   Context lets you write components that “adapt to their surroundings”.
+        -   Before you use context, try passing props or passing JSX as children.
+        -   It is common to use a reducer together with context to manage complex state and pass it down to distant components without too much hassle.
+    -   Scaling Up with Reducer and Context
+        -   Extremely crucial to practice this one
+        -   You can combine reducer with context to let any component read and update state above it.
+        -   To provide state and the dispatch function to components below:
+            -   Create two contexts (for state and for dispatch functions).
+            -   Provide both contexts from the component that uses the reducer.
+            -   Use either context from components that need to read them.
+        -   You can further declutter the components by moving all wiring into one file.
+            -   You can export a component like TasksProvider that provides context.
+            -   You can also export custom Hooks like useTasks and useTasksDispatch to read it.
+        -   You can have many context-reducer pairs like this in your app.
+-   Escape Hatches
+    -   
