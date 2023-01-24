@@ -1,0 +1,12 @@
+# References Section of https://beta.reactjs.org/reference/react
+-   Components
+    -   <Fragment> (<>...</>)
+    -   <Profiler>
+        -   Diff b/w profiler and dev tools?
+        -   Motivation and use-cases for every team
+    -   <StrictMode>
+        -   Must for development phase
+        -   could be done on a component level
+    -   <Suspense>
+        -   Fallback to loading state in UI components
+-   
