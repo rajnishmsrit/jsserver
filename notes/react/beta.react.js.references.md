@@ -1,12 +1,44 @@
 # References Section of https://beta.reactjs.org/reference/react
--   Components
-    -   <Fragment> (<>...</>)
-    -   <Profiler>
-        -   Diff b/w profiler and dev tools?
-        -   Motivation and use-cases for every team
-    -   <StrictMode>
-        -   Must for development phase
-        -   could be done on a component level
-    -   <Suspense>
-        -   Fallback to loading state in UI components
--   
+-   react package
+    -   Components
+        -   <Fragment> (<>...</>)
+        -   <Profiler>
+            -   Diff b/w profiler and dev tools?
+            -   Motivation and use-cases for every team
+        -   <StrictMode>
+            -   Must for development phase
+            -   could be done on a component level
+        -   <Suspense>
+            -   Fallback to loading state in UI components
+    -   Hooks
+        -   useCallback
+        -   useContext
+        -   useDebugValue
+        -   useDeferredValue
+        -   useEffect
+        -   useId
+        -   useImperativeHandle
+        -   useInsertionEffect
+        -   useLayoutEffect
+        -   useMemo
+        -   useReducer
+        -   useRef
+        -   useState
+        -   useSyncExternalStore
+        -   useTransition
+    -   APIs
+        -   createContext
+        -   forwardRef
+        -   lazy
+        -   memo
+        -   startTransition
+-   react-dom package
+    -   Components
+    -   APIs
+    -   Client APIs
+    -   Server APIs
+        -   renderToPipeableStream
+        -   renderToReadableStream
+        -   renderToStaticMarkup
+        -   renderToStaticNodeStream
+        -   renderToString
