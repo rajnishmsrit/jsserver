@@ -205,3 +205,79 @@
         -   A component doesn’t expose its DOM nodes by default. You can opt into exposing a DOM node by using forwardRef and passing the second ref argument down to a specific node.
         -   Avoid changing DOM nodes managed by React.
         -   If you do modify DOM nodes managed by React, modify parts that React has no reason to update.
+    -   Synchronizing with Effects
+        -   consider using or building a client-side cache. Popular open source solutions include React Query, useSWR, and React Router 6.4+
+        -   Unlike events, Effects are caused by rendering itself rather than a particular interaction.
+        -   Effects let you synchronize a component with some external system (third-party API, network, etc).
+        -   By default, Effects run after every render (including the initial one).
+        -   React will skip the Effect if all of its dependencies have the same values as during the last render.
+        -   You can’t “choose” your dependencies. They are determined by the code inside the Effect.
+        -   An empty dependency array ([]) corresponds to the component “mounting”, i.e. being added to the screen.
+        -   When Strict Mode is on, React mounts components twice (in development only!) to stress-test your Effects.
+        -   If your Effect breaks because of remounting, you need to implement a cleanup function.
+        -   React will call your cleanup function before the Effect runs next time, and during the unmount.
+    -   You Might Not Need an Effect
+        -   ```
+            // How to measure time
+            console.time('filter array');
+            const visibleTodos = getFilteredTodos(todos, filter);
+            console.timeEnd('filter array');
+            ```
+        -   Think about how many re-renders this useEffect will call (due to parent's state change)
+        -   While doing data-fetching in useEffect think about debouncing and stale responses.
+        -   To fix the race condition, you need to add a cleanup function to ignore stale responses:
+        -   Always think how to reduce the time when a user sees spinner.
+        -   If you can calculate something during render, you don’t need an Effect.
+        -   To cache expensive calculations, add useMemo instead of useEffect.
+        -   To reset the state of an entire component tree, pass a different key to it.
+        -   To reset a particular bit of state in response to a prop change, set it during rendering.
+        -   Code that needs to run because a component was displayed should be in Effects, the rest should be in events.
+        -   If you need to update the state of several components, it’s better to do it during a single event.
+        -   Whenever you try to synchronize state variables in different components, consider lifting state up.
+        -   You can fetch data with Effects, but you need to implement cleanup to avoid race conditions.
+    -   Lifecycle of Reactive Effects
+        -   Some Effects don’t return a cleanup function at all. More often than not, you’ll want to return one—but if you don’t, React will behave as if you returned an empty cleanup function that doesn’t do anything.
+        -   useEffect is compared with Object.is
+        -    Props, state, and other values declared inside the component are reactive because they’re calculated during rendering and participate in the React data flow.
+        -   All variables declared in the component body are reactive
+        -   All values inside the component (including props, state, and variables in your component’s body) are reactive. Any reactive value can change on a re-render, so you need to include reactive values as Effect’s dependencies.
+        -   Avoid relying on objects and functions as dependencies.
+        -   Components can mount, update, and unmount.
+        -   Each Effect has a separate lifecycle from the surrounding component.
+        -   Each Effect describes a separate synchronization process that can start and stop.
+        -   When you write and read Effects, you should think from each individual Effect’s perspective (how to start and stop synchronization) rather than from the component’s perspective (how it mounts, updates, or unmounts).
+        -   Values declared inside the component body are “reactive”.
+        -   Reactive values should re-synchronize the Effect because they can change over time.
+        -   The linter verifies that all reactive values used inside the Effect are specified as dependencies.
+        -   All errors flagged by the linter are legitimate. There’s always a way to fix the code that doesn’t break the rules.
+    -   Separating Events from Effects
+        -   Use a special Hook called useEffectEvent to extract this non-reactive logic out of your Effect:
+        -   Event handlers run in response to specific interactions.
+        -   Effects run whenever synchronization is needed.
+        -   Logic inside event handlers is not reactive.
+        -   Logic inside Effects is reactive.
+        -   You can move non-reactive logic from Effects into Effect Events.
+        -   Only call Effect Events from inside Effects.
+        -   Don’t pass Effect Events to other components or Hooks.
+    -   Removing Effect Dependencies
+        -   This might feel like solving an equation. You might start with a goal (for example, to remove a dependency), and you need to “find” the exact code matching that goal. Not everyone finds solving equations fun, and the same thing could be said about writing Effects! Luckily, there is a list of common recipes that you can try below.
+        -   Dependencies should always match the code.
+        -   When you’re not happy with your dependencies, what you need to edit is the code.
+        -   Suppressing the linter leads to very confusing bugs, and you should always avoid it.
+        -   To remove a dependency, you need to “prove” to the linter that it’s not necessary.
+        -   If the code in your Effect should run in response to a specific interaction, move that code to an event handler.
+        -   If different parts of your Effect should re-run for different reasons, split it into several Effects.
+        -   If you want to update some state based on the previous state, pass an updater function.
+        -   If you want to read the latest value without “reacting” it, extract an Effect Event from your Effect.
+        -   In JavaScript, objects and functions are considered different if they were created at different times.
+        -   Try to avoid object and function dependencies. Move them outside the component or inside the Effect.
+    -   Reusing Logic with Custom Hooks
+        -   Custom Hooks let you share logic between components.
+        -   Custom Hooks must be named starting with use followed by a capital letter.
+        -   Custom Hooks only share stateful logic, not state itself.
+        -   You can pass reactive values from one Hook to another, and they stay up-to-date.
+        -   All Hooks re-run every time your component re-renders.
+        -   The code of your custom Hooks should be pure, like your component’s code.
+        -   Wrap event handlers received by custom Hooks into Effect Events.
+        -   Don’t create custom Hooks like useMount. Keep their purpose specific.
+        -   It’s up to you how and where to choose the boundaries of your code.
