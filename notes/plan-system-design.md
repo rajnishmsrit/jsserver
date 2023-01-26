@@ -7,6 +7,17 @@
     -   Assets
     -   Use the HTTP/2 protocol?
 -   Chakde System design
+    -   network
+        -   https://www.youtube.com/watch?v=XSVkWiW-t4k&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=11
+    -   assets
+        -   https://www.youtube.com/watch?v=9JDlZxR8gVw&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=12
+    -   memory leaks
+        -   https://www.youtube.com/watch?v=I1b2XF8UJBs&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=13&ab_channel=ChiragGoel
+    -   components
+        -   https://www.youtube.com/watch?v=44mOnnt5pic&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=3&ab_channel=ChiragGoel
+    -   configurable UI - design components
+        -   https://www.youtube.com/watch?v=6z7ZXb4ntbE&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=15&t=2s&ab_channel=ChiragGoel
+    -   
 -   Security
 -   Core web vitals
 -   Janking
