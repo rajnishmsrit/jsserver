@@ -13,7 +13,9 @@
 -   `var a = function() {}`
 -   reduce
     - 
-
+- Callback function
+  - Callback hell or pyramid of doom
+  - Creates inversion of control (very bad)
 
 
 
