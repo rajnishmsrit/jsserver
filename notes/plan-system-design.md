@@ -1,4 +1,7 @@
--   Design Patterns
+-   Browser Rendering Mechanism
+-   v8 Engine basic of compilation
+    -   phases
+    -   garbage collection
 -   Accessibility
 -   SEO
 -   Performance Optimizations
@@ -7,7 +10,7 @@
     -   Assets
     -   Use the HTTP/2 protocol?
 -   Chakde System design
-    -   network
+    -   Network
         -   https://www.youtube.com/watch?v=XSVkWiW-t4k&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=11
     -   assets
         -   https://www.youtube.com/watch?v=9JDlZxR8gVw&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=12
@@ -17,14 +20,32 @@
         -   https://www.youtube.com/watch?v=44mOnnt5pic&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=3&ab_channel=ChiragGoel
     -   configurable UI - design components
         -   https://www.youtube.com/watch?v=6z7ZXb4ntbE&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU&index=15&t=2s&ab_channel=ChiragGoel
-    -   
 -   Security
+    -   Oauth
+    -   JWT Token
+    -   Roles
+-   A/B Testing
+-   Creating reusuable components from bottom up
+-   Microservices in FrontEnd
 -   Core web vitals
+-   Organization of packages
+    -   microservices
+    -   monolithic
+    -   monorepo
+    -   lerna
+    -   npm link
 -   Janking
--   Security
 -   Database
-    -   Storage
+    -   localStorage
+    -   sessionStorage
+    -   IndexedDB
+-   Design Patterns
+    -   SOLID Principle
+-   Infrastructure
+    -   Serverless
+    -   
 -   CDN
+    -   How does this help in reducing network optimizations?
 -   APIs
 -   Storage - S3, EC2, EBS
 -   Deployment

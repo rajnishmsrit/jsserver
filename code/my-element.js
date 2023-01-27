@@ -1,12 +1,4 @@
-console.log(a);
-let a = 4;
 
-
-class Animal {
-	talk : function (){
-		console.log("talking");
-	}
-}
 // Shadowing 
 
 // console.log(d);

@@ -1,22 +1,4 @@
-function talk () {
-    console.log(this);
-    console.log(this.sound);
-}
-
-let animal = {
-    talk
-}
-const cat = {
-    sound : "meow"
-}
+const arr = [1, 2, 0.25, 50, .6];
 
 
-
-const alpha = talk;
-
-console.log(alpha(cat));
-// Object.setPrototypeOf(cat, animal);
-// cat.talk();
-
-// [1,2,3]
-// [1,2,3]
+console.log(arr.filter(n => n % 1 === 0));
