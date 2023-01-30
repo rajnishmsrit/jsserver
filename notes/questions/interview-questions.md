@@ -4,4 +4,4 @@
 -   Javascript Object manipulation questions
 -   Flattening a array/object
 -   Create a form and manage state without ReactJS
--   
+-   Difference between false and falsy / true and truthy
