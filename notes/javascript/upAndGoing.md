@@ -29,4 +29,6 @@
     -   the == operator should be described as “coercive equality.
     -   relational comparison operators like <, > (and even <= and >=). they’ll allow coercion first (generally, to numbers) if the types
     -   These relational operators typically use numeric comparisons, except in the case where both values being compared are already strings; in this case, they use alphabetical (dictionarylike) comparison of the strings:
-    -   
+    -   Two major patterns for organizing code (data and behavior)
+are used broadly across the JS ecosystem: classes and modules.
+    -   There are other variations to this factory function form that are quite common across JS, even in 2020; you may run across these forms in different JS programs: AMD (Asynchronous Module Definition), UMD (Universal Module Definition), and CommonJS (classic Node.js-style modules). The variations, however, are minor (yet not quite compatible). Still, all of these forms rely on the same basic principles.
