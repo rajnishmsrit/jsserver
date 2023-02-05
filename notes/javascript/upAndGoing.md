@@ -32,3 +32,8 @@
     -   Two major patterns for organizing code (data and behavior)
 are used broadly across the JS ecosystem: classes and modules.
     -   There are other variations to this factory function form that are quite common across JS, even in 2020; you may run across these forms in different JS programs: AMD (Asynchronous Module Definition), UMD (Universal Module Definition), and CommonJS (classic Node.js-style modules). The variations, however, are minor (yet not quite compatible). Still, all of these forms rely on the same basic principles.
+-   Digging to the Roots of JS
+    -   Loading a variable and loading a iterator are two different thing.
+    -   With the ES6 iteration protocol in place, it’s workable to consume a data source one value at a time, checking after each next() call for done to be true to stop the iteration.
+    -   Closure is when a function remembers and continues to  access variables from outside its scope, even when the function is executed in a different scope.
+    -   Play with closure and stack and memory
