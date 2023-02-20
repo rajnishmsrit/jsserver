@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "05e39522a30befa6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cd144ab4e18bb03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51aae9092e9521f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/system-design/performance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac93ac91b9f6e62e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d131b5f94cd3ffb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b5a53197c179e24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d1ce1e2df7ecc69",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#callback",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "69ecba66e8e23aac",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "3378a64725c79087",
+    "type": "split",
+    "children": [
+      {
+        "id": "be3872da8fecb1d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5aeddf57311267da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/system-design/performance.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f389b0cec15f029",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/system-design/performance.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4526eed7ef63411f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0b9058779c2293d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/system-design/performance.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "51aae9092e9521f0",
+  "lastOpenFiles": [
+    "notes/javascript/execution-context.md",
+    "notes/javascript/programming.md",
+    "notes/plan-ds-algo.md",
+    "notes/javascript/eventloop.md",
+    "notes/javascript/callbackFunctions.md",
+    "notes/system-design/system_design_chakde_laoyut_shifts_options.PNG",
+    "notes/system-design/system_design_chakde_font_techniques.PNG",
+    "notes/system-design/system_design_chakde_laoyut_shifts,PNG.PNG",
+    "notes/system-design/system_design_chakde_csr_ssr.PNG",
+    "notes/system-design/system_design_chakde_asset_optimization.PNG"
+  ]
+}

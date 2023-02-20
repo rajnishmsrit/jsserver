@@ -1,0 +1,6 @@
+- Crux report
+- core web vitals
+- lab assesment (TBT) vs field assement (FID)
+- All vitals
+- Tools to measure it
+- removing blockers for both web and mobile

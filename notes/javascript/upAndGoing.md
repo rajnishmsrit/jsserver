@@ -37,3 +37,5 @@ are used broadly across the JS ecosystem: classes and modules.
     -   With the ES6 iteration protocol in place, it’s workable to consume a data source one value at a time, checking after each next() call for done to be true to stop the iteration.
     -   Closure is when a function remembers and continues to  access variables from outside its scope, even when the function is executed in a different scope.
     -   Play with closure and stack and memory
+    -   functions also have another characteristic besides their scope that influences what they can access This characteristic is best described as an execution context, and it’s exposed to the function via its this keyword.
+    -   Where this is a characteristic of function execution, a prototype is a characteristic of an object, and specifically resolution of a property access.
