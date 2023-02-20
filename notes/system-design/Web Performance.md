@@ -1,0 +1,32 @@
+Performance
+-	tools used to provide insights
+	- pagespeed Insights by Google
+	- crux report - dashboard with google analytics?
+	- webpagetest - fremium/paid - exhaustive
+	- Lighthouse - free
+	- Core web vitals
+-	regular screening in CI/CT pipeline
+	- paid one's by webpagetest
+	- Lighthouse CI - https://web.dev/lighthouse-ci/
+- Web Performance Working Group
+	- https://www.w3.org/webperf/
+- free of lag and jank? #webperformance
+- Metrics
+	- FCP
+	- LCP
+	- FID
+	- INP
+	- TTI
+	- TBT
+	- CLS
+	- TTFB
+- APIs for Custom Metrics
+	- Performance Observer
+	- User Timing API
+	- Long Tasks API
+	- Element Timing API
+	- Event Timing API
+	- Resource Timing API
+	- Navigation Timing API
+	- Server Timing API
+- all the vitals

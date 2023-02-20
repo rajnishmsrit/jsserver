@@ -1,0 +1,7 @@
+-	Types of accessibility
+-	Standards governing body
+-	aria tags, screen reader
+-	semantic elements
+-	How do you test during development?
+-	automated testing
+-	automated unit testing
