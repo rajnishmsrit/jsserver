@@ -1,8 +1,18 @@
 Performance
 -	CLS, FID, LCP, FCP, FMP, TTFB, TBT? 
 -	tools used to provide insights
+	- pagespeed Insights by Google
+	- crux report - dashboard with google analytics?
+	- webpagetest - fremium/paid - exhaustive
+	- Lighthouse - free
+	- Core web vitals
 -	regular screening in CI/CT pipeline
--	all the vitals
+	- paid one's by webpagetest
+	- Lighthouse CI - https://web.dev/lighthouse-ci/
+- Web Performance Working Group
+	- https://www.w3.org/webperf/
+- free of lag and jank? #product
+- all the vitals
 
 Security
 -	tools

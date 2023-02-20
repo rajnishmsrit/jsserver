@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/system-design/performance.md",
+                "file": "notes/interview/Service-based.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/performance.md",
+                "file": "notes/interview/Service-based.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/performance.md",
+                "file": "notes/interview/Service-based.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/performance.md"
+                "file": "notes/interview/Service-based.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "51aae9092e9521f0",
   "lastOpenFiles": [
+    "notes/interview/recommended-materials.md",
+    "notes/interview/machine-coding-round.md",
+    "notes/system-design/performance.md",
+    "notes/system-design/network-optimisation.md",
     "notes/javascript/execution-context.md",
     "notes/javascript/programming.md",
     "notes/plan-ds-algo.md",
     "notes/javascript/eventloop.md",
     "notes/javascript/callbackFunctions.md",
-    "notes/system-design/system_design_chakde_laoyut_shifts_options.PNG",
-    "notes/system-design/system_design_chakde_font_techniques.PNG",
-    "notes/system-design/system_design_chakde_laoyut_shifts,PNG.PNG",
-    "notes/system-design/system_design_chakde_csr_ssr.PNG",
-    "notes/system-design/system_design_chakde_asset_optimization.PNG"
+    "notes/system-design/system_design_chakde_laoyut_shifts_options.PNG"
   ]
 }
