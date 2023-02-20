@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/system-design/Web Accessbility.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00265d151da16efa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Web SEO.md",
+                "file": "notes/system-design/Web Performance.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#callback",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/Web SEO.md",
+                "file": "notes/system-design/Web Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/Web SEO.md",
+                "file": "notes/system-design/Web Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/Web SEO.md"
+                "file": "notes/system-design/Web Performance.md"
               }
             }
           }
@@ -195,14 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00265d151da16efa",
+  "active": "191e449bd61214c9",
   "lastOpenFiles": [
     "notes/interview/Service-based.md",
-    "notes/system-design/Web SEO.md",
-    "notes/system-design/Web Accessbility.md",
-    "notes/interview/system-design-round.md",
-    "notes/system-design/Web Security.md",
     "notes/system-design/Web Performance.md",
+    "notes/system-design/Web Security.md",
+    "notes/system-design/Web Accessibility.md",
+    "notes/system-design/Web SEO.md",
+    "notes/interview/system-design-round.md",
     "notes/interview/recommended-materials.md",
     "notes/interview/machine-coding-round.md",
     "notes/system-design/performance.md",

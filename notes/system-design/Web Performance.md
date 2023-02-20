@@ -29,4 +29,6 @@ Performance
 	- Resource Timing API
 	- Navigation Timing API
 	- Server Timing API
+- Crux vs RUM timings
+	- https://web.dev/crux-and-rum-differences/
 - all the vitals
