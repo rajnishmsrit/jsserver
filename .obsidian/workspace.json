@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "191e449bd61214c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Web Performance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,11 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 272.5
   },
   "right": {
     "id": "3378a64725c79087",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/Web Performance.md",
+                "file": "notes/interview/Service-based.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/Web Performance.md",
+                "file": "notes/interview/Service-based.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/Web Performance.md"
+                "file": "notes/interview/Service-based.md"
               }
             }
           }
@@ -183,12 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "191e449bd61214c9",
+  "active": "1b6c0cdee45303cb",
   "lastOpenFiles": [
-    "notes/interview/Service-based.md",
-    "notes/system-design/Web Performance.md",
-    "notes/system-design/Web Security.md",
     "notes/system-design/Web Accessibility.md",
+    "notes/system-design/Web Security.md",
+    "notes/system-design/Web Performance.md",
+    "notes/interview/Service-based.md",
     "notes/system-design/Web SEO.md",
     "notes/interview/system-design-round.md",
     "notes/interview/recommended-materials.md",

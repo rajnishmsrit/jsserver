@@ -1,8 +1,32 @@
-Security
--	tools
--	coding standards
--	xss attacks, csrf
--	javascript inherent lack of security
--	nodejs security issues
--	web based security issues
--	how to make your website secure?
+- External Tools
+	- Sucuri SiteCheck
+	- Mozilla Observatory
+	- Detectify
+	- SSLTrust
+	- WPScan
+- Internal Tools
+	- SonarQube
+		- Code quality
+- Types
+	- FrontEnd security
+		- Javascript is insecure - vulnerability
+		- Site is insecure - javascript /framework
+			- Coding standards
+			- OWASP standards
+				- xss attacks, csrf
+		- Infrastructure related
+		- 
+	- NodeJS security
+- Group
+	- Web Application Security of W3C
+- CSP
+	- Can be based by Applications
+	- Not strictly enforced by Browsers
+	- 3 headers that is visible
+		- x-csp, csp, content-csp
+		- X-Content-Security-Policy no longer required
+- Must
+	- Cookies
+	- SameSite, SameOrigin
+	- Headers
+	- Coding standards
