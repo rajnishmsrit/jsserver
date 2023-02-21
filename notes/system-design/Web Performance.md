@@ -13,12 +13,12 @@ Performance
 - free of lag and jank? #webperformance
 - Metrics
 	- FCP
-	- LCP
-	- FID
-	- INP
+	- LCP - core web - mostly it is image/video
+	- First Input Delay (FID) - core web - RUM based
+	- Interaction to Next Paint (INP)
 	- TTI
 	- TBT
-	- CLS
+	- CLS - core web - Most difficult to conquer
 	- TTFB
 - APIs for Custom Metrics
 	- Performance Observer
@@ -29,6 +29,6 @@ Performance
 	- Resource Timing API
 	- Navigation Timing API
 	- Server Timing API
-- Crux vs RUM timings
+- Crux vs Real User Monitoring(RUM) timings
 	- https://web.dev/crux-and-rum-differences/
 - all the vitals

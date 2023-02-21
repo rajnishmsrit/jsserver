@@ -14,6 +14,7 @@
 			- Coding standards
 			- OWASP standards
 				- xss attacks, csrf
+			- Most common web attacks - clickjacking etc
 		- Infrastructure related
 		- 
 	- NodeJS security
