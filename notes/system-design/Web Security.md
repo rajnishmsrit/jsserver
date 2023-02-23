@@ -27,7 +27,12 @@
 		- x-csp, csp, content-csp
 		- X-Content-Security-Policy no longer required
 - Must
-	- Cookies
-	- SameSite, SameOrigin
-	- Headers
+	- all types of major attacks from front End
+		- XSS
+		- CSRF
+		- ClickJacking
+	- HTTP Protocol communication
+		- Cookies
+		- SameSite, SameOrigin
+		- Headers
 	- Coding standards

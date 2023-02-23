@@ -1,4 +1,4 @@
-Performance
+Performance #webperformance https://github.com/davidsonfellipe/awesome-wpo
 -	tools used to provide insights
 	- pagespeed Insights by Google
 	- crux report - dashboard with google analytics?

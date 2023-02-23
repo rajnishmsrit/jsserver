@@ -26,3 +26,5 @@
     -   Brotli vs Gzip
 -   Layout Shift and repaints
     -   browser refresh rate 16ms - 10ms
+- Why is app.js taking 1.6mb of load data
+	- optimize by splitting
