@@ -1,0 +1,16 @@
+- a CDN or an Edge network
+- 
+- Incremental Static Generation
+- Examples
+	- Terms and Condition 
+		- CDN delivery
+	- Live Score of Cricket Match
+		- client side fetch
+	- Contact Us (with user info)
+		- SPA
+			- /contact
+				- It still needs user data
+				- It makes a ajax/graphQL to fetch
+		- MPA
+			- Server side iteraction and brings back js
+			- Fetch user data from GraphQL

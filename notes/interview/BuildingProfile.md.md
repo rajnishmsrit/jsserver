@@ -1,18 +1,16 @@
-- Performance #service
+- Performance
 	- CLS
 	- LCP
 	- Optimization
 	- image
 	- video
 	- network
-	- 
 - Accessiblity
 - Security
 - SEO
-
 - HTML / CSS
 	- review and history
 - Javascript / React
 - Live Coding
 - DS / algo
-
+- 
