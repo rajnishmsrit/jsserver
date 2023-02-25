@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
+                "file": "notes/javascript/Practical algorithms in JS.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
+                "file": "notes/javascript/Practical algorithms in JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
+                "file": "notes/javascript/Practical algorithms in JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md"
+                "file": "notes/javascript/Practical algorithms in JS.md"
               }
             }
           }
@@ -162,14 +162,14 @@
   "active": "1f6608c41c25e8a6",
   "lastOpenFiles": [
     "notes/interview/BuildingProfile.md.md",
+    "notes/interview/ds-algo.md",
+    "notes/javascript/Practical algorithms in JS.md",
+    "notes/system-design/Rendering Patterns.md",
     "notes/assets.md",
     "notes/system-design/Web Performance.md",
     "notes/system-design/Web Security.md",
     "notes/system-design/Web Accessibility.md",
     "notes/system-design/Web SEO.md",
-    "notes/system-design/network-optimisationnetwork-optimisation.md",
-    "notes/system-design/performance.md",
-    "notes/interview/system-design-round.md",
-    "notes/interview/recommended-materials.md"
+    "notes/system-design/network-optimisationnetwork-optimisation.md"
   ]
 }
