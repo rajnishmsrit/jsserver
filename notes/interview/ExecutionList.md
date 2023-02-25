@@ -1,0 +1,5 @@
+- Akshay Saini complete course
+- Low level stuff like rollup bundler etc
+- Make a site with all the feature set basic
+- Make site using design system and replica
+- Implement features and build it using 

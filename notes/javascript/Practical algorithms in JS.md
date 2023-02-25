@@ -1,7 +1,8 @@
 - Tree Shaking
 - Compression like gzip and brotli
 - Deduplication
-
+- Consistent Hashing
+- HMR?
 
 
 // lodash // array, objects, strings

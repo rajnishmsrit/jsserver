@@ -8,19 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d8d9aefa17ec496",
+            "id": "1f6608c41c25e8a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview/BuildingProfile.md.md",
+                "file": "notes/interview/ExecutionList.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f6608c41c25e8a6",
+            "id": "5f0c1e6cbd856db2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/react/Akshay Saini Course.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f944e73ea1bc15a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/javascript/Practical algorithms in JS.md",
+                "file": "notes/react/Akshay Saini Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/javascript/Practical algorithms in JS.md",
+                "file": "notes/react/Akshay Saini Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/javascript/Practical algorithms in JS.md"
+                "file": "notes/react/Akshay Saini Course.md"
               }
             }
           }
@@ -159,17 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f6608c41c25e8a6",
+  "active": "5f0c1e6cbd856db2",
   "lastOpenFiles": [
+    "notes/interview/ExecutionList.md",
     "notes/interview/BuildingProfile.md.md",
-    "notes/interview/ds-algo.md",
     "notes/javascript/Practical algorithms in JS.md",
+    "notes/interview/ds-algo.md",
     "notes/system-design/Rendering Patterns.md",
     "notes/assets.md",
     "notes/system-design/Web Performance.md",
     "notes/system-design/Web Security.md",
     "notes/system-design/Web Accessibility.md",
-    "notes/system-design/Web SEO.md",
-    "notes/system-design/network-optimisationnetwork-optimisation.md"
+    "notes/system-design/Web SEO.md"
   ]
 }

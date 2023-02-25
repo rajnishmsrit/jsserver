@@ -1,0 +1,22 @@
+- Igniting you app
+	- browserslist
+	- parcel and its algorithms
+		- HMR
+		- Consistent hashing algo
+- Laying the foundation
+- Talk is Cheap, show me the code
+	- Virtual Nodes are 200,000 Nodes/Seconds
+	- Virtual DOM vs Real DOM Nodes
+-  Let's get Hooked!
+	- useLayoutEffect: It fires at the end of all DOM mutations. It's best to use useEffect as much as possible over this one as the useLayoutEffect fires synchronously.
+- Exploring the world
+	- Shimmer UI
+- Finding the path
+	- In Server-side routing or rendering (SSR), every change in URL, http request is made to server to fetch the webpage, and replace the current webpage with the older one.
+	- In Client-side routing or rendering (CSR), during the first load, the webapp is loaded from server to client, after which whenever there is a change in URL, the router library navigates the user to the new page without sending any request to backend. All Single Page Applications uses client-side routing.
+- Let's get Classy
+	- createBrowserRouter
+	- createHashRouter is useful if you are unable to configure your web server to direct all traffic to your React Router application. Instead of using normal URLs, it will use the hash (#) portion of the URL to manage the "application URL". Other than that, it is functionally the same as createBrowserRouter. For more reference Read more
+	- createMemoryRouter Instead of using the browsers history a memory router manages it's own history stack in memory. It's primarily useful for testing and component development tools like Storybook, but can also be used for running React Router in any non-browser environment. For more reference Read more
+	- [React-Lifecycle-methods-Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+	- Why can't we have the callback function of useEffect async?
