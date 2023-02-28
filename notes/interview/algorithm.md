@@ -1,0 +1,7 @@
+- Some algorithms requires just a recursion, some need recursion with stack/queue. Think before you implement
+- DFS
+	- Preoder (Most famous), InOrder, PostOrder
+	- https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/depth-first-search
+- BFS
+	- Implementation using stack and/or queue
+	- https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search

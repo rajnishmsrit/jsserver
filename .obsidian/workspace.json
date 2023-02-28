@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/react/Akshay Saini Course.md",
+                "file": "notes/misc/plan-ds-algo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ea1f768902e5f02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/interview/algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/react/Akshay Saini Course.md",
+                "file": "notes/interview/algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/react/Akshay Saini Course.md",
+                "file": "notes/interview/algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/react/Akshay Saini Course.md"
+                "file": "notes/interview/algorithm.md"
               }
             }
           }
@@ -171,12 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f0c1e6cbd856db2",
+  "active": "6ea1f768902e5f02",
   "lastOpenFiles": [
+    "notes/misc/plan-ds-algo.md",
+    "notes/interview/algorithm.md",
+    "notes/interview/ds-algo.md",
+    "notes/react/Akshay Saini Course.md",
     "notes/interview/ExecutionList.md",
     "notes/interview/BuildingProfile.md.md",
     "notes/javascript/Practical algorithms in JS.md",
-    "notes/interview/ds-algo.md",
     "notes/system-design/Rendering Patterns.md",
     "notes/assets.md",
     "notes/system-design/Web Performance.md",
