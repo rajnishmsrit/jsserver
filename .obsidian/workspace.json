@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "6976ba23050480ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/interview/basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f944e73ea1bc15a",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/interview/PS.md",
+                "file": "notes/interview/basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/interview/PS.md",
+                "file": "notes/interview/basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/interview/PS.md"
+                "file": "notes/interview/basics.md"
               }
             }
           }
@@ -195,10 +207,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4eb95e5cca47b59",
+  "active": "6976ba23050480ba",
   "lastOpenFiles": [
-    "notes/interview/algorithm.md",
     "notes/interview/PS.md",
+    "notes/interview/basics.md",
+    "notes/interview/algorithm.md",
     "notes/misc/plan-ds-algo.md",
     "notes/interview/ds-algo.md",
     "notes/react/Akshay Saini Course.md",
