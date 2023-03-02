@@ -1,5 +1,5 @@
 React
-- react technical interview questions
+- Top priority questions
 	- Features that were introduced from React 16 to React 18
 		- Changes to Event Delegation v17
 		- v18
@@ -13,7 +13,17 @@ React
 				- Automatic batching
 				- Suspense update
 				- Concurrency feature is not experimental rather use as is
-				- separation of client/server - read beta docs
+				- separation of client/server - read beta docs\
+	- Data fetching 
+		- use try catch for data fetch
+		- fetch / useSWR / axios
+		- **Read beta docs how to fetch data and design a page** 
+	- jest
+	- https://reactrouter.com/en/main
+	- Micro-Frontend or is it on Monolithic Architecture
+	- Data binding is data flow
+	- Context API write code
+- react technical interview questions
 	- What are some differences that you are aware of between these Frameworks/Libraries?
 		- https://www.codeinwp.com/blog/angular-vs-vue-vs-react/#gref
 		- https://athemes.com/guides/angular-vs-react-vs-vue/
