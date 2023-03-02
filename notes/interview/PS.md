@@ -1,8 +1,22 @@
 React
 - react technical interview questions
+	- Features that were introduced from React 16 to React 18
+		- Changes to Event Delegation v17
+		- v18
+			- new features
+				- useId 
+				- useDeferredValue 
+				- useSyncExternalStore 
+				- useInsertionEffect 
+				- startTransition and useTransition
+			- breaking changes
+				- Automatic batching
+				- Suspense update
+				- Concurrency feature is not experimental rather use as is
+				- separation of client/server - read beta docs
 	- What are some differences that you are aware of between these Frameworks/Libraries?
-	- https://www.codeinwp.com/blog/angular-vs-vue-vs-react/#gref
-	- https://athemes.com/guides/angular-vs-react-vs-vue/
+		- https://www.codeinwp.com/blog/angular-vs-vue-vs-react/#gref
+		- https://athemes.com/guides/angular-vs-react-vs-vue/
 - Table format
 - Remote data management in react
 - React hook 

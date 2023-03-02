@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview/basics.md",
+                "file": "notes/interview/PS.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/interview/basics.md",
+                "file": "notes/interview/PS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/interview/basics.md",
+                "file": "notes/interview/PS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/interview/basics.md"
+                "file": "notes/interview/PS.md"
               }
             }
           }
@@ -209,8 +209,8 @@
   },
   "active": "6976ba23050480ba",
   "lastOpenFiles": [
-    "notes/interview/PS.md",
     "notes/interview/basics.md",
+    "notes/interview/PS.md",
     "notes/interview/algorithm.md",
     "notes/misc/plan-ds-algo.md",
     "notes/interview/ds-algo.md",
