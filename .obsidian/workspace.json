@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "2bbb51bdcb7bf3f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/interview/PS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f944e73ea1bc15a",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -207,10 +219,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6976ba23050480ba",
+  "active": "2bbb51bdcb7bf3f5",
   "lastOpenFiles": [
-    "notes/interview/basics.md",
+    "notes/interview/codingprep.md",
     "notes/interview/PS.md",
+    "notes/interview/basics.md",
     "notes/interview/algorithm.md",
     "notes/misc/plan-ds-algo.md",
     "notes/interview/ds-algo.md",

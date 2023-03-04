@@ -2,7 +2,7 @@ React
 - Top priority questions
 	- Features that were introduced from React 16 to React 18
 		- Changes to Event Delegation v17
-		- v18
+		- v18 - https://www.freecodecamp.org/news/react-18-new-features/
 			- new features
 				- useId 
 				- useDeferredValue 
