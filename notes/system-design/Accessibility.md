@@ -1,0 +1,3 @@
+- https://www.magentaa11y.com/how-to/
+- Keyboard accessibility is prerequisite to screen reader accessibility. If it doesn’t work with only the keyboard, it won’t work with a screen reader.
+- 

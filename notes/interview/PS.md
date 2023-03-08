@@ -1,4 +1,24 @@
-React
+- Daily coding for Site
+	- rendering patterns
+	- React app building for 
+		- Suspense
+		- useMemo
+		- React Table
+	- performance
+	- accessibility
+	- web performance
+	- security
+- JS related direct questions
+	- Promise, call, apply bind etc
+- UI creation problem
+- DS and algo
+
+- Local webpack starter command / codesandbox react template
+- webpack
+	- HMR
+	- bundle for production
+	- build command
+	- postcss etc is optional
 - Top priority questions
 	- Features that were introduced from React 16 to React 18
 		- Changes to Event Delegation v17
@@ -39,3 +59,4 @@ React
 - Links
 - Parcel vs Rollup vs WebPack vs Vite
 	- https://betterprogramming.pub/the-battle-of-bundlers-6333a4e3eda9#:~:text=Just%20install%20Parcel%20and%20run,%2C%20but%20webpack%20doesn't.
+- 
