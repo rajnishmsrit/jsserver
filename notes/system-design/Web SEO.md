@@ -1,4 +1,7 @@
 
--	ways to analyze
--	how to improve
--	tools
+- CornerStone content
+- Semantic HTML
+- 
+- ways to analyze
+- how to improve
+- tools

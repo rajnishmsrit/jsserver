@@ -1,6 +1,16 @@
-- a CDN or an Edge network
-- 
-- Incremental Static Generation
+- CSR - Client Side Rendering
+	- Basic way in which js controlls everything
+	- optimization available are only script preload/async/defer
+- SSR - Server Side Rendering
+	- Not advisable as every request will be served, which isn't advisable.
+	- Needs an active server
+- Isomorphic Rendering or Universal Javscript
+	- Implements both CSR and SSR - SSR for first page.\
+- Streaming SSR - How does it work?
+	- uses rendertostream of React API - via SSE
+- SSG - Static Site Generator
+	- a CDN or an Edge network
+- ISG - Incremental Static Generation of NextJS vs Using Deferred Static Generation (DSG) of Gatsby
 - Examples
 	- Terms and Condition 
 		- CDN delivery
