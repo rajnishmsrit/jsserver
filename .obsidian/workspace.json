@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "ec59ea499dc8fa13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/interview/Companies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f944e73ea1bc15a",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
+                "file": "notes/interview/Companies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
+                "file": "notes/interview/Companies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/Rendering Patterns.md"
+                "file": "notes/interview/Companies.md"
               }
             }
           }
@@ -255,10 +267,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "318acc18e49e8427",
+  "active": "ec59ea499dc8fa13",
   "lastOpenFiles": [
-    "notes/system-design/JS framework and libraries.md",
     "notes/system-design/Rendering Patterns.md",
+    "notes/interview/Companies.md",
+    "notes/system-design/JS framework and libraries.md",
     "notes/system-design/Web SEO.md",
     "notes/system-design/webpack.md",
     "notes/javascript/You don't know JS/upAndGoing.md",
@@ -283,7 +296,6 @@
     "notes/interview/codingprep.md",
     "notes/interview/basics.md",
     "notes/interview/algorithm.md",
-    "notes/misc/plan-ds-algo.md",
-    "notes/react/Akshay Saini Course.md"
+    "notes/misc/plan-ds-algo.md"
   ]
 }
