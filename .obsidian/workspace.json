@@ -128,6 +128,18 @@
             }
           },
           {
+            "id": "39871e55e7efdb4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/javascript/Open source.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f944e73ea1bc15a",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/Plan-design-systems.md",
+                "file": "notes/javascript/Open source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/Plan-design-systems.md",
+                "file": "notes/javascript/Open source.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/Plan-design-systems.md"
+                "file": "notes/javascript/Open source.md"
               }
             }
           }
@@ -279,10 +291,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2c2713015a4db79",
+  "active": "39871e55e7efdb4f",
   "lastOpenFiles": [
-    "notes/interview/Companies.md",
     "notes/system-design/Plan-design-systems.md",
+    "notes/javascript/Open source.md",
+    "notes/interview/Companies.md",
     "notes/system-design/Rendering Patterns.md",
     "notes/system-design/JS framework and libraries.md",
     "notes/system-design/Web SEO.md",
@@ -307,7 +320,6 @@
     "notes/interview/machine-coding-round.md",
     "notes/interview/ds-algo.md",
     "notes/interview/codingprep.md",
-    "notes/interview/basics.md",
-    "notes/interview/algorithm.md"
+    "notes/interview/basics.md"
   ]
 }

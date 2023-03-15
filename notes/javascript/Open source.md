@@ -1,0 +1,22 @@
+- Youtube video for 1-2 on how to contribute
+	- Find projects - trending projects
+	- design system / websocket / webpack / websockets
+	- things to do 
+		- read about ci/cd tools used .github/workflows
+		- contribution notes - must read
+		- create fork then create fix branches and make changes and create PR
+		- communication -- reviewed 
+		- planning of issues and feature update -- read this first
+	- Order of complexity
+		- basic issue label change
+		- good first issues
+		- test cases coverage
+		- typescript additions
+		- feature update
+		- core library change
+	 - benefits
+		 - code base understanding -- superb
+		 - collaboration
+		 - brand building 
+		 - jobs
+	- 
