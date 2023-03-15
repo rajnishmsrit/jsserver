@@ -37,134 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview/algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4eb95e5cca47b59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview/PS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6976ba23050480ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview/PS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bbb51bdcb7bf3f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be149c5e7c06b988",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "318acc18e49e8427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Rendering Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec59ea499dc8fa13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview/Companies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2c2713015a4db79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Plan-design-systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39871e55e7efdb4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/javascript/Open source.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f944e73ea1bc15a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/javascript/Practical algorithms in JS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f6162ced1e9b0f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview/PS.md",
+                "file": "notes/system-design/design-systems/Vimeo Dissection.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/javascript/Open source.md",
+                "file": "notes/system-design/design-systems/Vimeo Dissection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/javascript/Open source.md",
+                "file": "notes/system-design/design-systems/Vimeo Dissection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/javascript/Open source.md"
+                "file": "notes/system-design/design-systems/Vimeo Dissection.md"
               }
             }
           }
@@ -291,10 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39871e55e7efdb4f",
+  "active": "6ea1f768902e5f02",
   "lastOpenFiles": [
-    "notes/system-design/Plan-design-systems.md",
+    "notes/interview/algorithm.md",
+    "notes/system-design/design-systems/Vimeo Dissection.md",
     "notes/javascript/Open source.md",
+    "notes/system-design/design-systems",
+    "notes/system-design/Plan-design-systems.md",
     "notes/interview/Companies.md",
     "notes/system-design/Rendering Patterns.md",
     "notes/system-design/JS framework and libraries.md",
@@ -318,8 +201,6 @@
     "notes/interview/system-design-round.md",
     "notes/interview/recommended-materials.md",
     "notes/interview/machine-coding-round.md",
-    "notes/interview/ds-algo.md",
-    "notes/interview/codingprep.md",
-    "notes/interview/basics.md"
+    "notes/interview/ds-algo.md"
   ]
 }
