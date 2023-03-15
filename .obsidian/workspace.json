@@ -116,6 +116,18 @@
             }
           },
           {
+            "id": "d2c2713015a4db79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/system-design/Plan-design-systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f944e73ea1bc15a",
             "type": "leaf",
             "state": {
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/interview/Companies.md",
+                "file": "notes/system-design/Plan-design-systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/interview/Companies.md",
+                "file": "notes/system-design/Plan-design-systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/interview/Companies.md"
+                "file": "notes/system-design/Plan-design-systems.md"
               }
             }
           }
@@ -267,10 +279,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec59ea499dc8fa13",
+  "active": "d2c2713015a4db79",
   "lastOpenFiles": [
-    "notes/system-design/Rendering Patterns.md",
     "notes/interview/Companies.md",
+    "notes/system-design/Plan-design-systems.md",
+    "notes/system-design/Rendering Patterns.md",
     "notes/system-design/JS framework and libraries.md",
     "notes/system-design/Web SEO.md",
     "notes/system-design/webpack.md",
@@ -295,7 +308,6 @@
     "notes/interview/ds-algo.md",
     "notes/interview/codingprep.md",
     "notes/interview/basics.md",
-    "notes/interview/algorithm.md",
-    "notes/misc/plan-ds-algo.md"
+    "notes/interview/algorithm.md"
   ]
 }

@@ -1,0 +1,12 @@
+- Design System
+	- read about design systems in open source like carbon
+	- find how components are created necessary requirements
+	- Storybook testing how it is approached with design system
+	- lerna vs yarn workspaces
+	- Web Commons - uses Storybook
+	- pushing a package to npm library
+		-	how to make a release to npm library using lerna or github push
+ - Open source contribution
+	 - getting started - 1 commits early 
+	 - contributing to projects
+	 - 
