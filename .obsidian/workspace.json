@@ -173,6 +173,8 @@
   },
   "active": "6ea1f768902e5f02",
   "lastOpenFiles": [
+    "package-lock.json",
+    "package-lock.json.3690261087",
     "notes/interview/algorithm.md",
     "notes/system-design/design-systems/Vimeo Dissection.md",
     "notes/javascript/Open source.md",
@@ -200,7 +202,6 @@
     "notes/javascript/callbackFunctions.md",
     "notes/interview/system-design-round.md",
     "notes/interview/recommended-materials.md",
-    "notes/interview/machine-coding-round.md",
-    "notes/interview/ds-algo.md"
+    "notes/interview/machine-coding-round.md"
   ]
 }
