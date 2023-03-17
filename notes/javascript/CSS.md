@@ -1,8 +1,0 @@
-- CSS3 - Plain css
-- SASS  == SCSS
-- LESS
-- SASS > LESS
-- CSS in JS
-	- server side rendering
-	- styled components
-	- <BasicPage className="header" style="">

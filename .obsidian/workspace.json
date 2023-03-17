@@ -13,50 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview/PS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a8386d0467239c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview/On the go.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f56f585f2f8d912",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/tools/webpack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd170163c4ae7604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/design-systems/Vimeo Dissection.md",
+                "file": "notes/system-design/HTML and CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/design-systems/Vimeo Dissection.md",
+                "file": "notes/system-design/HTML and CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/design-systems/Vimeo Dissection.md",
+                "file": "notes/system-design/HTML and CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/design-systems/Vimeo Dissection.md"
+                "file": "notes/system-design/HTML and CSS.md"
               }
             }
           }
@@ -183,17 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd170163c4ae7604",
+  "active": "14aea2ee30779823",
   "lastOpenFiles": [
-    "notes/javascript/CSS.md",
-    "notes/tools/webpack.md",
-    "notes/interview/On the go.md",
-    "notes/tools",
     "notes/interview/PS.md",
+    "notes/misc/plan-html-css.md",
+    "notes/system-design/HTML and CSS.md",
+    "notes/interview/On the go.md",
+    "notes/tools/webpack.md",
+    "notes/system-design/design-systems/IRIS.md",
+    "notes/tools",
     "notes/questions/interview-questions.md",
     "notes/interview/ExecutionList.md",
     "notes/misc/plan-ds-algo.md",
-    "notes/system-design/design-systems/Vimeo Dissection.md",
     "package-lock.json",
     "package-lock.json.3690261087",
     "notes/interview/algorithm.md",
@@ -215,7 +179,6 @@
     "notes/javascript/hoisting.md",
     "notes/javascript/execution-context.md",
     "notes/javascript/eventloop.md",
-    "notes/javascript/closure_uses_akshay.PNG",
-    "notes/javascript/block-scope-shadowing.md"
+    "notes/javascript/closure_uses_akshay.PNG"
   ]
 }
