@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "b97be669972df3f0",
+        "id": "636163e7bea02a2c",
         "type": "tabs",
         "children": [
           {
-            "id": "1f6608c41c25e8a6",
+            "id": "14aea2ee30779823",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview/ExecutionList.md",
+                "file": "notes/interview/PS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5f0c1e6cbd856db2",
+            "id": "5a8386d0467239c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/misc/plan-ds-algo.md",
+                "file": "notes/interview/On the go.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6ea1f768902e5f02",
+            "id": "0f56f585f2f8d912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/tools/webpack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd170163c4ae7604",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 289.5
   },
   "right": {
     "id": "3378a64725c79087",
@@ -171,12 +183,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ea1f768902e5f02",
+  "active": "dd170163c4ae7604",
   "lastOpenFiles": [
+    "notes/javascript/CSS.md",
+    "notes/tools/webpack.md",
+    "notes/interview/On the go.md",
+    "notes/tools",
+    "notes/interview/PS.md",
+    "notes/questions/interview-questions.md",
+    "notes/interview/ExecutionList.md",
+    "notes/misc/plan-ds-algo.md",
+    "notes/system-design/design-systems/Vimeo Dissection.md",
     "package-lock.json",
     "package-lock.json.3690261087",
     "notes/interview/algorithm.md",
-    "notes/system-design/design-systems/Vimeo Dissection.md",
     "notes/javascript/Open source.md",
     "notes/system-design/design-systems",
     "notes/system-design/Plan-design-systems.md",
@@ -186,9 +206,7 @@
     "notes/system-design/Web SEO.md",
     "notes/system-design/webpack.md",
     "notes/javascript/You don't know JS/upAndGoing.md",
-    "notes/interview/PS.md",
     "notes/system-design/Accessibility.md",
-    "notes/interview/ExecutionList.md",
     "notes/javascript/You don't know JS",
     "notes/javascript/programming.md",
     "notes/javascript/primitives.md",
@@ -198,10 +216,6 @@
     "notes/javascript/execution-context.md",
     "notes/javascript/eventloop.md",
     "notes/javascript/closure_uses_akshay.PNG",
-    "notes/javascript/block-scope-shadowing.md",
-    "notes/javascript/callbackFunctions.md",
-    "notes/interview/system-design-round.md",
-    "notes/interview/recommended-materials.md",
-    "notes/interview/machine-coding-round.md"
+    "notes/javascript/block-scope-shadowing.md"
   ]
 }
