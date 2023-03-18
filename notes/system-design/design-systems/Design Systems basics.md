@@ -1,0 +1,6 @@
+- Each company has its own design system which caters to their need like Netflix needs a presence on mobile, web, TV with equal importance. 
+- A smaller company may need only 1 platform ex - payment gateway etc
+- A design system helps company to convey a common experience across multiple devices of various dimensions. This is exactly it is a hard problem to nail down.
+- Imagine tons of devices, tons of accessbility requirements, various technologies involved
+- [A good read on multiple platforms design support](https://dbanks.design/blog/multi-platform/)
+- 

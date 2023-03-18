@@ -5,3 +5,4 @@
 	- read dependencies, scripts
 	- readme, Contributor's guide
 	- Find images -- may be there is a UML diagram or design doc
+- Create a dependency graph of files and read central files - like graphviz to determine the callgraph

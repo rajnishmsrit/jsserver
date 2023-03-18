@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/system-design/HTML and CSS.md",
+                "file": "notes/Open Source/How to get hero from zero.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28c6a625747d45ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/system-design/Plan-design-systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "911e2cc47e8ce53c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/system-design/design-systems/Design Systems basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,18 +50,6 @@
               "type": "markdown",
               "state": {
                 "file": "notes/Open Source/Get started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2a5f404cc537d64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Open Source/How to get hero from zero.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Open Source/How to get hero from zero.md",
+                "file": "notes/system-design/design-systems/Design Systems basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Open Source/How to get hero from zero.md",
+                "file": "notes/system-design/design-systems/Design Systems basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Open Source/How to get hero from zero.md"
+                "file": "notes/system-design/design-systems/Design Systems basics.md"
               }
             }
           }
@@ -171,13 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d2a5f404cc537d64",
+  "active": "911e2cc47e8ce53c",
   "lastOpenFiles": [
-    "notes/Open Source/Get started.md",
+    "notes/system-design/Plan-design-systems.md",
+    "notes/system-design/design-systems/Design Systems basics.md",
+    "notes/Open Source/Webpack dissection.md",
     "notes/Open Source/How to get hero from zero.md",
+    "notes/system-design/HTML and CSS.md",
+    "notes/Open Source/Get started.md",
     "notes/Open Source",
     "notes/system-design/Browser.md",
-    "notes/system-design/HTML and CSS.md",
     "notes/interview/PS.md",
     "notes/misc/plan-html-css.md",
     "notes/interview/On the go.md",
@@ -191,7 +206,6 @@
     "package-lock.json.3690261087",
     "notes/interview/algorithm.md",
     "notes/system-design/design-systems",
-    "notes/system-design/Plan-design-systems.md",
     "notes/interview/Companies.md",
     "notes/system-design/Rendering Patterns.md",
     "notes/system-design/JS framework and libraries.md",
@@ -203,8 +217,6 @@
     "notes/javascript/programming.md",
     "notes/javascript/primitives.md",
     "notes/javascript/Practical algorithms in JS.md",
-    "notes/javascript/Objects.md",
-    "notes/javascript/hoisting.md",
     "notes/javascript/closure_uses_akshay.PNG"
   ]
 }
