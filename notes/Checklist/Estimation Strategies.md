@@ -1,0 +1,4 @@
+- Estimation Strategies
+	- [ ] Check understanding of top-down / bottom-up approaches and how estimations are refined over time
+	- [ ] WBS / Poker
+	- [ ] Planning for tracks, triaging etc

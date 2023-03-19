@@ -30,8 +30,6 @@
 		- emotions
 		- styled components
 		- jss
-	- 
-
 - CSS3 - Plain css
 - SASS  == SCSS
 - LESS

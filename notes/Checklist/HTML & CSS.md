@@ -1,0 +1,15 @@
+#html #css 
+- HTML | Templating
+	- [ ] Request lifecycle, Atomic design, Design Systems
+	- [ ] Sementic HTML, DOM
+	- [ ] Forms and Validations
+	- [ ] Media - Responsive Images, Audio and Video
+	- [ ] Browser Side Storage, Workers, and Caching- Local, Session, Cookies, IndexDb, WebSQL
+	- [ ] Service Workers, Web Workers
+	- [ ] SEO basics
+- CSS / processors & Responsive
+	- [ ] CSSOM, Rules, Selectors and Property values, Cascading, Inheritance, Specificity
+	- [ ] Responsive Design (Mobile and Desktop first), Media Queries
+	- [ ] Layout -  (float, flex, grid), display, postitioning
+	- [ ] Animations and transalations- Basics, SVG
+	- [ ] Processors / Preprocessors, Frameworks, CSS-in-JS

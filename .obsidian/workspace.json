@@ -37,7 +37,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/system-design/design-systems/Design Systems basics.md",
+                "file": "notes/system-design/Web Accessibility.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2c37dbf53a97fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Checklist/HTML & CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0f629f74772982a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "notes/system-design/images/system_design_chakde.PNG"
+              }
+            }
+          },
+          {
+            "id": "5269a5e8c8fa17d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Checklist/Non-Functional Requirements.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/system-design/design-systems/Design Systems basics.md",
+                "file": "notes/Checklist/Non-Functional Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/system-design/design-systems/Design Systems basics.md",
+                "file": "notes/Checklist/Non-Functional Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/system-design/design-systems/Design Systems basics.md"
+                "file": "notes/Checklist/Non-Functional Requirements.md"
               }
             }
           }
@@ -183,13 +217,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "911e2cc47e8ce53c",
+  "active": "5269a5e8c8fa17d1",
   "lastOpenFiles": [
-    "notes/system-design/Plan-design-systems.md",
+    "notes/system-design/HTML and CSS.md",
+    "notes/system-design/Web SEO.md",
+    "notes/system-design/JS framework and libraries.md",
+    "notes/system-design/images/system_design_chakde.PNG",
+    "notes/system-design/images/system_design_chakde_asset_optimization.PNG",
+    "notes/Checklist/Non-Functional Requirements.md",
+    "notes/system-design/images",
+    "notes/system-design/Accessibility.md",
+    "notes/Checklist/Estimation Strategies.md",
+    "notes/Checklist/HTML & CSS.md",
+    "notes/system-design/Web Accessibility.md",
+    "notes/Checklist",
     "notes/system-design/design-systems/Design Systems basics.md",
+    "notes/system-design/Plan-design-systems.md",
     "notes/Open Source/Webpack dissection.md",
     "notes/Open Source/How to get hero from zero.md",
-    "notes/system-design/HTML and CSS.md",
     "notes/Open Source/Get started.md",
     "notes/Open Source",
     "notes/system-design/Browser.md",
@@ -208,15 +253,7 @@
     "notes/system-design/design-systems",
     "notes/interview/Companies.md",
     "notes/system-design/Rendering Patterns.md",
-    "notes/system-design/JS framework and libraries.md",
-    "notes/system-design/Web SEO.md",
-    "notes/system-design/webpack.md",
-    "notes/javascript/You don't know JS/upAndGoing.md",
-    "notes/system-design/Accessibility.md",
     "notes/javascript/You don't know JS",
-    "notes/javascript/programming.md",
-    "notes/javascript/primitives.md",
-    "notes/javascript/Practical algorithms in JS.md",
     "notes/javascript/closure_uses_akshay.PNG"
   ]
 }

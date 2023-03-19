@@ -1,4 +1,35 @@
--	Types of accessibility
+- PS 
+- [ ] Understands A/ AA / AAA accessibility guidelines and write code adhering to meet the accessibility benchmarks,
+- [ ] Has a fair understanding to make dynamic content accessible with ARIA
+- [ ] Uses enhanced techniques to meet accessibility standards viz: skip navigation, no js etc.
+- [ ] Creating accesible forms, content and best practices
+- [ ] Links
+	- [ ] https://medium.com/@saileshraghavan two articles
+		- [ ] https://medium.com/engineered-publicis-sapient/accessibility-the-mandatory-nice-to-have-620f35346dcf
+		- [ ] https://medium.com/experience-technology/the-webs-for-all-let-s-keep-it-that-way-i-3e2f7e7909cf
+	- [ ] Articles
+		- [ ] https://www.accessiblemetrics.com/wp-content/uploads/2018/10/Accessible-Metrics-Campaign-Content-Offer.pdf
+		- [ ] https://www.a11yproject.com/checklist/
+		- [ ] https://offers.hubspot.com/hubfs/Website-Accessibility-Checklist.pdf
+		- [ ] https://www.internetrix.com.au/web-accessibility/
+		- [ ] https://www.w3.org/WAI/standards-guidelines/
+		- [ ] https://www.w3.org/TR/WCAG21/
+		- [ ] https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+		- [ ] https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes
+		- [ ] https://www.w3.org/WAI/ER/tools/
+		- [ ] https://www.skynettechnologies.com/blog/what-difference-between-wcag-compliance-level-aa-and-aaa
+		- [ ] https://developer.chrome.com/blog/full-accessibility-tree/
+		- [ ] https://www.softwaretestinghelp.com/what-is-web-accessibility-testing/
+		- [ ] https://www.section508.gov/test/web-software/
+	- [ ] Videos
+		- [ ] Web : https://www.youtube.com/watch?v=F3L6n6N9U-M
+		- [ ] https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/videos
+- Tools
+	- https://www.w3.org/WAI/ER/tools/
+- Guidelines 
+	- https://guidelines.india.gov.in/
+- Types of accessibility
+	- https://en.wikipedia.org/wiki/Lynx_%28web_browser%29 for screen readers
 	- Cannot use mouse, do everything via keyboard, focus imp
 	- Visual testing
 		- Designer, font
@@ -12,11 +43,9 @@
 		- Cuba - 2mb/s
 -	Standards governing body
 	- WAI-ARIA
-	- W3C Web Content Accessibility Guidelines 2.0
+	- W3C Web Content Accessibility Guidelines 2.1
 -	aria tags, screen reader
 -	semantic elements
 -	How do you test during development?
 -	automated testing
 -	automated unit testing
-- Tools
-	- https://www.w3.org/WAI/ER/tools/
