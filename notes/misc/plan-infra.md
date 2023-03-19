@@ -1,3 +1,0 @@
-# Infrastructure
--   Serverless
--   Edge computing

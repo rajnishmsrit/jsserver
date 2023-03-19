@@ -1,8 +1,0 @@
-- https://medium.com/webpack/contributors-guide/home
-- read medium article
-- Sections
-	- Setting up tests
-	- Compler.js and compilation.js
-	- tappable are imp
-	- plugins
-	- loaders

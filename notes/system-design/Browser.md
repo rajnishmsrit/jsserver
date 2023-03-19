@@ -1,2 +1,0 @@
-- Critical rendering path
-- 

@@ -1,8 +1,0 @@
-- Article to read long codebases [link](https://pncnmnp.github.io/blogs/oss-guide.html)
-- What are ctags?
-- For Javascript
-	- Go through package.json
-	- read dependencies, scripts
-	- readme, Contributor's guide
-	- Find images -- may be there is a UML diagram or design doc
-- Create a dependency graph of files and read central files - like graphviz to determine the callgraph

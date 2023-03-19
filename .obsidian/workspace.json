@@ -8,113 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "14aea2ee30779823",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Open Source/How to get hero from zero.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28c6a625747d45ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Plan-design-systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "911e2cc47e8ce53c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/system-design/Web Accessibility.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2c37dbf53a97fd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Checklist/HTML & CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0f629f74772982a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "notes/system-design/images/system_design_chakde.PNG"
-              }
-            }
-          },
-          {
-            "id": "5269a5e8c8fa17d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Checklist/Non-Functional Requirements.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f97cb1bdcc36d004",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Checklist/Accessibility.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fadf1abbb7c49383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Checklist/Accessibility.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e1fd278f191d137",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Open Source/Get started.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Checklist/Accessibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Checklist/Accessibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/Checklist/Accessibility.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -241,13 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fadf1abbb7c49383",
+  "active": "8b5a53197c179e24",
   "lastOpenFiles": [
+    "notes/technical/awesome-blogs.md",
+    "notes/technical",
+    "notes/Checklist/Accessibility.md",
     "notes/Checklist/HTML & CSS.md",
     "notes/Checklist/ReactJS.md",
     "notes/Checklist/Non-Functional Requirements.md",
     "notes/Checklist/Estimation Strategies.md",
-    "notes/Checklist/Accessibility.md",
     "notes/system-design/Web Accessibility.md",
     "notes/system-design/HTML and CSS.md",
     "notes/system-design/Web SEO.md",
@@ -277,7 +176,6 @@
     "package-lock.json.3690261087",
     "notes/interview/algorithm.md",
     "notes/system-design/design-systems",
-    "notes/interview/Companies.md",
     "notes/javascript/You don't know JS",
     "notes/javascript/closure_uses_akshay.PNG"
   ]
