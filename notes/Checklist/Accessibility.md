@@ -28,3 +28,27 @@
 	- [ ] https://www.w3.org/WAI/ER/tools/
 - [ ] Guidelines 
 	- [ ] https://guidelines.india.gov.in/
+- [ ] Levels
+	- [ ] Beginner
+		- [ ] Understands A/ AA accessibility guidelines and write code adhering to meet the accessibility benchmarks.
+		- [ ] Write semantically correct markup.
+		- [ ] Has a fair understanding of screen readers.
+		- [ ] Has a basic understanding to make dynamic content accessible with ARIA
+	- [ ] Intermediate
+		- [ ] Understands A/ AA / AAA accessibility guidelines and write code adhering to meet the accessibility benchmarks.
+		- [ ] Uses progressive enhancement to ensure that accessibility is not hindered by functionality or presentation layers
+		- [ ] Has a fair understanding to make dynamic content accessible with ARIA
+		- [ ] Uses enhanced techniques to meet AAA level of accessibility viz: skip navigation, no js etc
+	- [ ] Proficient
+		- [ ] Has good understanding of different levels of accessibility and standards – Sec 508, A levels, RNIB etc.
+		- [ ] Be able to do end to end testing on screen readers and recommend changes.
+		- [ ] Be able to validate the designs and assets provided for accessibility standards.
+		- [ ] Should be able to validate the architectural solutions keeping accessibility in mind
+		- [ ] Consult and close on ways and tools of testing accessibility.
+	- [ ] Expert
+		- [ ] Should be able to recommend accessibility levels and standards to be followed
+		- [ ] Consult and close on ways and tools of testing accessibility.
+		- [ ] Be able to mentor and educate designers on best practices to be followed for meeting accessibility standards (color contrasts, color+ differentiation)
+		- [ ] Should be able to guide on acessibility for different user agents - http://w3c.github.io/UAAG/Implementing-UAAG20/
+		- [ ] Should be able to validate the architectural solutions keeping accessibility in mind
+		- [ ] Should be able to guide Authors/Business users for the accessible content.

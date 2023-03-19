@@ -13,3 +13,38 @@
 	- [ ] Layout -  (float, flex, grid), display, postitioning
 	- [ ] Animations and transalations- Basics, SVG
 	- [ ] Processors / Preprocessors, Frameworks, CSS-in-JS
+- [ ] Levels
+	- [ ] Beginner
+		- [ ] Write semantic/w3c standard compliant/accessible markup. (Associates)
+		- [ ] Write cross browser compliant code - catering to desktop and mobile browsers alike. (Associates +)
+		- [ ] Implement responsive design solutions (Associates)
+		- [ ] Convert provided PSD's to HTML  (Asssociates)
+		- [ ] Debug and fix non-compliant code  (Associates)
+		- [ ] Commonly used HTML 5 Api's like audio/video/geo location/canvas (Sen Assoc) with fall back options for non-compliant browsers.
+		- [ ] Write Readable, optimised, maintianable and scalabe CSS by following best practices and industry standards
+		- [ ] Knowledge of Core CSS properties like float, position, display
+		- [ ] Use of CSS sprites
+		- [ ] Understand the difference between margin/padding
+		- [ ] Knowledge of box-model
+		- [ ] Basic understanding of CSS pre-processors like sass/less
+		- [ ] Should be able to use short hand properties
+	- [ ] Intermediate
+		- [ ] implement and review code
+		- [ ] Review/ validate the feasibility/ completeness of the designs provided
+		- [ ] Should be able to organise the css in a top down structure (reset, layouts, utils, style guides, modular)
+		- [ ] Should be able to use short hand properties, combine classes
+		- [ ] Knowledge of font-icon css libraries
+		- [ ] Knowledge of Media queries and its properties
+		- [ ] Should be able to create responsive/non-responsive layouts using various grid systems
+	- [ ] Proficient
+		- [ ] Setup/architect Web / Responsive / Mobile Design Solutions and approach
+		- [ ] Awareness of SEO compatible markup
+		- [ ] Should be able to understand/implement accessability standards
+		- [ ] Should be able to create CSS using pre-processors
+		- [ ] Able to optimise and re-factor the CSS files
+	- [ ] Expert
+		- [ ] Consult and recommend Web / Responsive / Mobile Design Solutions and approach
+		- [ ] Should be able to architect AA/AAA compatible markups and layout
+		- [ ] Should be able to architect and structure the entire CSS
+		- [ ] Able to evaluate and implement popular css frameworks
+		- [ ] Ability to audit and suggest necessary changes (re-structure , re-factor, performance measures etc)
