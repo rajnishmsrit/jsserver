@@ -1,0 +1,19 @@
+.modal-close {
+  display: none;
+}
+
+.modal-open {
+  display: block;
+  z-index: 1000;
+  background: grey;
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  filter: blur(10);
+}
+
+.buttonBox{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
